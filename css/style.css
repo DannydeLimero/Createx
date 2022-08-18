@@ -61,13 +61,27 @@ a {
 /*-----------------------------RESET-------------------------*/
 body {
   height: 100%;
-  font-family: "Gilroy-Medium";
+  font-family: "Lato-Bold";
 }
 
 .container {
-  max-width: px;
+  max-width: 1230px;
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
   height: 100%;
+}
+
+.head__row {
+  display: flex;
+  justify-content: space-between;
+}
+.head__content {
+  display: flex;
+}
+.head__list {
+  display: flex;
+}
+.head__btns {
+  display: flex;
 }/*# sourceMappingURL=style.css.map */

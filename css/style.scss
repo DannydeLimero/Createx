@@ -57,13 +57,45 @@ a {
 
 body {
     height: 100%;
-    font-family: 'Gilroy-Medium';
+    font-family: 'Lato-Bold';
 }
 
 .container {
-    max-width: px;
+    max-width: 1230px;
     margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px;
     height: 100%;
+}
+
+//-------------------------------HEADER-----------------------------//
+
+.head {
+	
+	&__row {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	&__content {
+		display: flex;
+	}
+
+	&__list {
+		display: flex;
+	}
+
+	&__btns {
+		display: flex;
+	}
+
+	&__box {
+		
+	}
+}
+
+.btns {
+
+	&__consultation {
+	}
 }
