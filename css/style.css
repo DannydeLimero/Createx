@@ -106,6 +106,10 @@ body {
   display: flex;
   align-items: center;
 }
+.header__box {
+  margin: 0 0 0 64px;
+}
+
 .btns__consultation {
   background: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
   border-radius: 4px;
@@ -114,4 +118,22 @@ body {
   letter-spacing: 0.5px;
   color: #FFFFFF;
   padding: 0 40px;
+}
+.btns a {
+  font-size: 16px;
+  line-height: 160%;
+  color: #424551;
+}
+.btns__log-in {
+  position: relative;
+}
+.btns__log-in::before {
+  content: "";
+  position: absolute;
+  top: -2px;
+  left: -28px;
+  background-image: url(../img/header/Profile.svg);
+  background-size: cover;
+  width: 20px;
+  height: 20px;
 }/*# sourceMappingURL=style.css.map */
