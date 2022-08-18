@@ -70,11 +70,22 @@ body {
 
 //-------------------------------HEADER-----------------------------//
 
-.head {
-	
+.bg-wrap {
+	background-image: url(../img/background1.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.header {
 	&__row {
 		display: flex;
 		justify-content: space-between;
+		align-items: center;
+		height: 52px;
+	}
+
+	&__logo {
+		margin: 0 60px 0 0;
 	}
 
 	&__content {
@@ -83,10 +94,22 @@ body {
 
 	&__list {
 		display: flex;
+		align-items: center;
+		& li:not(:last-child) {
+			margin: 0 40px 0 0;
+		}
+		& a {
+			font-size: 16px;
+			line-height: 160%;
+			color: #424551;
+			
+			
+		}
 	}
 
 	&__btns {
 		display: flex;
+		align-items: center;
 	}
 
 	&__box {
