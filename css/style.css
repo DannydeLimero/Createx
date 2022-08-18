@@ -105,4 +105,13 @@ body {
 .header__btns {
   display: flex;
   align-items: center;
+}
+.btns__consultation {
+  background: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
+  border-radius: 4px;
+  font-size: 16px;
+  line-height: 325%;
+  letter-spacing: 0.5px;
+  color: #FFFFFF;
+  padding: 0 40px;
 }/*# sourceMappingURL=style.css.map */
