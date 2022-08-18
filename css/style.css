@@ -58,7 +58,7 @@ a {
   text-decoration: none;
 }
 
-/*-----------------------------RESET-------------------------*/
+/*------------------------------------------------------*/
 body {
   height: 100%;
   font-family: "Lato-Bold";
@@ -70,6 +70,11 @@ body {
   padding-left: 15px;
   padding-right: 15px;
   height: 100%;
+}
+
+.btn {
+  background: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
+  border-radius: 4px;
 }
 
 .bg-wrap {
@@ -111,8 +116,6 @@ body {
 }
 
 .btns__consultation {
-  background: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
-  border-radius: 4px;
   font-size: 16px;
   line-height: 325%;
   letter-spacing: 0.5px;
