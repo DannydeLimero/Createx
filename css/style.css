@@ -150,6 +150,9 @@ body {
   display: flex;
   justify-content: space-between;
 }
+.main__column {
+  margin: 0 175px 0 0;
+}
 .main__music-btn {
   display: flex;
   align-items: center;
