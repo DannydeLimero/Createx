@@ -415,6 +415,8 @@ body {
 	}
 
 	&__box {
+		display: flex;
+		flex-direction: column;
 		margin: 32px;
 	}
 
@@ -432,10 +434,12 @@ body {
 		font-size: 20px;
 		line-height: 150%;
 		color: #1E212C;
-		margin: 20px 0;
+		margin: 20px 0 0 0;
+		flex: 1 1 auto;
 	}
 
 	&__salary {
+		display: block;
 		font-family: 'Lato-Regular';
 		font-size: 18px;
 		line-height: 150%;
