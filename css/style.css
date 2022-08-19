@@ -294,4 +294,11 @@ body {
 .about__more-about {
   padding: 0 32px;
   cursor: pointer;
+}
+
+.courses__content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex: 0 1 50%;
 }/*# sourceMappingURL=style.css.map */

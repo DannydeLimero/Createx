@@ -336,6 +336,10 @@ body {
 	&__row {
 	}
 
+	&__text {
+		
+	}
+
 	&__subtitle {
 	}
 
@@ -346,6 +350,10 @@ body {
 	}
 
 	&__content {
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
+		flex: 0 1 50%;
 	}
 
 	&__item {
