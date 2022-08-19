@@ -71,6 +71,11 @@ body {
 .btn {
 	background: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
 	border-radius: 4px;
+	font-size: 16px;
+	line-height: 325%;
+	letter-spacing: 0.5px;
+	color: #FFFFFF;
+	cursor: pointer;
 }
 //-------------------------------HEADER-----------------------------//
 
@@ -86,6 +91,7 @@ body {
 		justify-content: space-between;
 		align-items: center;
 		height: 52px;
+		padding: 20px 0 140px 0;
 	}
 
 	&__logo {
@@ -121,10 +127,6 @@ body {
 
 .btns {
 	&__consultation {
-		font-size: 16px;
-		line-height: 325%;
-		letter-spacing: 0.5px;
-		color: #FFFFFF;
 		padding: 0 40px;
 	}
 	& a {
@@ -149,42 +151,130 @@ body {
 
 //-----------------------------------MAIN------------------------------------//
 
+
+
 .main {
 
 	&__content {
+		padding: 0 0 190px 0;
+	}
+
+	&__row {
+		display: flex;
+		justify-content: space-between;
 	}
 
 	&__column {
+		
 	}
 
 	&__music-btn {
+		display: flex;
+		align-items: center;
+		margin: 0 0 24px 0;
+		& button {
+			position: relative;
+			background-color: transparent;
+			cursor: pointer;
+		}
+		& span {
+			font-size: 14px;
+			line-height: 150%;
+			color: #1E212C;
+			margin: 0 0 0 10px;
+		}
+	}
+	&__hover {
+		position: absolute;
+		top: -15px;
+		left: -10px;
+		opacity: 0;
+		width: 84px;
+		height: 84px;
+		transition: all 0.75s ease 0s;
+		&:hover {
+			transition: all 0.75s ease 0s;
+			opacity: 1;
+		}
 	}
 
 	&__title {
+		font-family: 'Lato-Black';
+		font-size: 64px;
+		line-height: 130%;
+		letter-spacing: 1px;
+		color: #1E212C;
+		margin: 0 0 60px 0;
 	}
 
 	&__btns {
 	}
 
-	&__row {
+	&__footer {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
 	}
 
 	&__item {
+		display: flex;
+		align-items: center;
 	}
 
 	&__text {
+		font-family: 'Lato-Black';
+		font-size: 46px;
+		line-height: 130%;
+		color: #1E212C;
+		margin: 0 12px 0 0;
 	}
 
 	&__text-descr {
+		font-family: 'Lato-Regular';
+		font-size: 16px;
+		line-height: 160%;
+		color: #1E212C;
+	}
+
+	&__dot {
+		height: 8px;
+		width: 8px;
 	}
 }
 
 .btns {
 
 	&__about-us {
+		position: relative;
+		font-size: 16px;
+		line-height: 52px;
+		letter-spacing: 0.5px;
+		background: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		border-radius: 4px;
+		padding: 0px 40px;
+		margin: 0 24px 0 0;
+		cursor: pointer;
+		&::before {
+			content: "";
+			position: absolute;
+			top: 0;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			border-radius: 4px; 
+			border: 1px solid transparent;
+			background: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
+			-webkit-mask:
+			  linear-gradient(#fff 0 0) padding-box, 
+			  linear-gradient(#fff 0 0);
+			-webkit-mask-composite: destination-out;
+			mask-composite: exclude;
+		  }
 	}
 
 	&__explore {
+		padding: 0 40px;
 	}
 }
-
