@@ -214,6 +214,7 @@ body {
 		display: flex;
 		align-items: center;
 		justify-content: space-between;
+		padding: 0 0 80px 0;
 	}
 
 	&__item {
@@ -243,7 +244,6 @@ body {
 }
 
 .btns {
-
 	&__about-us {
 		position: relative;
 		font-size: 16px;
@@ -278,3 +278,4 @@ body {
 		padding: 0 40px;
 	}
 }
+
