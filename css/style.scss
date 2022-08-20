@@ -415,27 +415,24 @@ body {
 	}
 
 	&__box {
-		display: flex;
-		flex-direction: column;
 		margin: 32px;
 	}
 
 	&__badge {
+		display: inline-block;
 		font-family: 'Lato-Regular';
 		border-radius: 4px;
 		font-size: 14px;
 		line-height: 150%;
 		color: #FFFFFF;
 		padding: 1px 8px 1px 8px;
-		
 	}
 
 	&__position {
 		font-size: 20px;
 		line-height: 150%;
 		color: #1E212C;
-		margin: 20px 0 0 0;
-		flex: 1 1 auto;
+		margin: 20px 0 20px 0;
 	}
 
 	&__salary {
