@@ -678,7 +678,8 @@ body {
 }
 
 .field {
-
+	display: flex;
+	align-items: flex-start;
 	&__box {
 		display: grid;
 		grid-template-areas: 'day month''day time';

@@ -554,6 +554,10 @@ body {
   background-color: #FFFFFF;
   border-radius: 4px;
 }
+.field {
+  display: flex;
+  align-items: flex-start;
+}
 .field__box {
   display: grid;
   grid-template-areas: "day month" "day time";
