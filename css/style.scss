@@ -156,7 +156,7 @@ body {
 			position: absolute;
 			top: -2px;
 			left: -28px;
-			background-image: url(../img/header/Profile.svg);
+			background-image: url(../img/main-page/header/Profile.svg);
 			background-size: cover;
 			width: 20px;
 			height: 20px;
@@ -295,7 +295,7 @@ body {
 }
 
 .about {
-	background-image: url(../img/about/background.png);
+	background-image: url(../img/main-page/about/background.png);
 	background-size: cover;
 	background-repeat: no-repeat;
 	margin: 180px 0 0 0;
@@ -324,7 +324,7 @@ body {
 		color: #424551;
 		margin: 0 0 48px 0;
 		& li {
-			list-style: url(../img/about/check.svg);
+			list-style: url(../img/main-page/about/check.svg);
 			list-style-position: inside;
 			&:not(:last-child) {
 				margin: 0 0 12px 0;
@@ -396,8 +396,7 @@ body {
 		justify-content: space-between;
 		flex-wrap: wrap;
 		flex: 0 1 100%;
-		padding: -15px 0;
-		margin: 0 0 180px 0;
+		padding: 0 0 165px 0;
 	}
 
 	&__item {
@@ -461,4 +460,81 @@ body {
 
 .badge-red {
 	background: #F52F6E;
+}
+
+.benefits {
+	background-color: #FFFFFF;
+	&__content {
+	}
+
+	&__text {
+		text-align: center;
+		padding: 0 0 60px 0;
+	}
+
+	&__subtitle {
+		margin: 0 0 8px 0;
+	}
+
+	&__title {
+		font-family: 'Lato-Black';
+	}
+
+	&__btns {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	&__btn {
+		border-radius: 4px;
+		font-size: 16px;
+		line-height: 160%;
+		color: #9A9CA5;
+		background-color: transparent;
+		padding: 10px 0;
+	}
+
+	&__hover {
+		&:hover {
+			position: relative;
+			font-weight: 700;
+			font-size: 16px;
+			line-height: 52px;
+			letter-spacing: 0.5px;
+			background: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+			border-radius: 4px;
+			padding: 0px 40px;
+			cursor: pointer;
+			&::before {
+				content: "";
+				position: absolute;
+				top: 0;
+				left: 0;
+				right: 0;
+				bottom: 0;
+				border-radius: 4px; 
+				border: 1px solid transparent;
+				background: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
+				-webkit-mask:
+					linear-gradient(#fff 0 0) padding-box, 
+					linear-gradient(#fff 0 0);
+				-webkit-mask-composite: destination-out;
+				mask-composite: exclude;
+			}
+		}
+	}
+
+	&__row {
+	}
+
+	&__box {
+	}
+
+	&__box-title {
+	}
+
+	&__box-subtitle {
+	}
 }
