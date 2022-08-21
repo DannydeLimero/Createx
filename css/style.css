@@ -479,24 +479,10 @@ body {
   transition: all 0.5s ease 0s;
 }
 .btns__tutors:hover:before {
-  position: absolute;
-  content: "";
-  top: 30%;
-  left: 20%;
   background-image: url(../img/main-page/benefits/Star-red.svg);
-  height: 15px;
-  width: 15px;
-  transition: all 0.5s ease 0s;
 }
 .btns__tutors.active:before {
-  position: absolute;
-  content: "";
-  top: 30%;
-  left: 20%;
   background-image: url(../img/main-page/benefits/Star-red.svg);
-  height: 15px;
-  width: 15px;
-  transition: all 0.5s ease 0s;
 }
 .btns__feedback:before {
   position: absolute;
@@ -509,24 +495,10 @@ body {
   transition: all 0.5s ease 0s;
 }
 .btns__feedback:hover:before {
-  position: absolute;
-  content: "";
-  top: 30%;
-  left: 20%;
   background-image: url(../img/main-page/benefits/like-red.svg);
-  height: 15px;
-  width: 15px;
-  transition: all 0.5s ease 0s;
 }
 .btns__feedback.active:before {
-  position: absolute;
-  content: "";
-  top: 30%;
-  left: 20%;
   background-image: url(../img/main-page/benefits/like-red.svg);
-  height: 15px;
-  width: 15px;
-  transition: all 0.5s ease 0s;
 }
 .btns__library:before {
   position: absolute;
@@ -539,24 +511,10 @@ body {
   transition: all 0.5s ease 0s;
 }
 .btns__library:hover:before {
-  position: absolute;
-  content: "";
-  top: 30%;
-  left: 20%;
   background-image: url(../img/main-page/benefits/Layouts-red.svg);
-  height: 15px;
-  width: 15px;
-  transition: all 0.5s ease 0s;
 }
 .btns__library.active:before {
-  position: absolute;
-  content: "";
-  top: 30%;
-  left: 20%;
   background-image: url(../img/main-page/benefits/Layouts-red.svg);
-  height: 15px;
-  width: 15px;
-  transition: all 0.5s ease 0s;
 }
 .btns__community:before {
   position: absolute;
@@ -569,24 +527,10 @@ body {
   transition: all 0.5s ease 0s;
 }
 .btns__community:hover:before {
-  position: absolute;
-  content: "";
-  top: 30%;
-  left: 20%;
   background-image: url(../img/main-page/benefits/Chat-red.svg);
-  height: 15px;
-  width: 15px;
-  transition: all 0.5s ease 0s;
 }
 .btns__community.active:before {
-  position: absolute;
-  content: "";
-  top: 30%;
-  left: 20%;
   background-image: url(../img/main-page/benefits/Chat-red.svg);
-  height: 15px;
-  width: 15px;
-  transition: all 0.5s ease 0s;
 }
 
 .events {
