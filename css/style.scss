@@ -694,11 +694,15 @@ body {
 }
 
 .events {
-
+	background-image: url(../img/main-page/events/bg-color.png);
+	background-size: cover;
+	background-repeat: no-repeat;
 	&__content {
+		padding: 80px 0 0 0;
 	}
 
 	&__text {
+		text-align: center;
 	}
 
 	&__subtitle {
@@ -708,9 +712,15 @@ body {
 	}
 
 	&__column {
+		padding: -24px 0;
 	}
 
 	&__field {
+		margin: 24px 0;
+		display: flex;
+		padding: 32px 40px;
+		background-color: #FFFFFF;
+		border-radius: 4px;
 	}
 
 	&__foot {
@@ -726,24 +736,51 @@ body {
 .field {
 
 	&__box {
+		display: grid;
+		grid-template-areas: 'day month''day time';
 	}
 
 	&__day {
+		grid-area: day;
+		font-family: 'Lato-Black';
+		font-size: 48px;
+		line-height: 130%;
+		letter-spacing: 1px;
+		color: #FF3F3A;
+		margin: 0 20px 0 0;
 	}
 
 	&__month {
+		grid-area: month;
+		font-size: 20px;
+		line-height: 150%;
+		color: #1E212C;
 	}
 
 	&__time {
+		grid-area: time;
+		font-family: 'Lato-Regular';
+		font-size: 16px;
+		line-height: 160%;
+		color: #787A80;
 	}
 
 	&__text {
+		padding: 0 0 0 40px;
 	}
 
 	&__title {
+		font-size: 20px;
+		line-height: 150%;
+		color: #1E212C;
+		margin: 0 0 4px 0;
 	}
 
 	&__descr {
+		font-family: 'Lato-Regular';
+		font-size: 16px;
+		line-height: 160%;
+		color: #787A80;
 	}
 
 	&__btn {
