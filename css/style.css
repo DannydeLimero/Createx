@@ -557,6 +557,8 @@ body {
 .field__box {
   display: grid;
   grid-template-areas: "day month" "day time";
+  -moz-column-gap: 20px;
+       column-gap: 20px;
 }
 .field__day {
   grid-area: day;
@@ -565,7 +567,6 @@ body {
   line-height: 130%;
   letter-spacing: 1px;
   color: #FF3F3A;
-  margin: 0 20px 0 0;
 }
 .field__month {
   grid-area: month;
@@ -581,6 +582,9 @@ body {
   color: #787A80;
 }
 .field__text {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
   padding: 0 0 0 40px;
 }
 .field__title {
@@ -594,4 +598,36 @@ body {
   font-size: 16px;
   line-height: 160%;
   color: #787A80;
+}
+.field__btn {
+  position: relative;
+  font-size: 14px;
+  line-height: 44px;
+  letter-spacing: 0.5px;
+  background: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  border-radius: 4px;
+  padding: 0 32px;
+  cursor: pointer;
+}
+.field__btn::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 4px;
+  border: 1px solid transparent;
+  background: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
+  -webkit-mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: destination-out;
+  mask-composite: exclude;
+}
+.field__btn:hover {
+  background: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
+  border-radius: 4px;
+  -webkit-background-clip: none;
+  -webkit-text-fill-color: #FFFFFF;
 }/*# sourceMappingURL=style.css.map */
