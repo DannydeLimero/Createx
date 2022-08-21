@@ -347,6 +347,7 @@ body {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  gap: 30px 0;
   flex: 0 1 100%;
   padding: 0 0 165px 0;
 }
@@ -358,7 +359,6 @@ body {
   box-shadow: 0px 80px 80px -20px rgba(154, 156, 165, 0.08), 0px 30px 24px -10px rgba(154, 156, 165, 0.05), 0px 12px 10px -6px rgba(154, 156, 165, 0.04), 0px 4px 4px -4px rgba(30, 33, 44, 0.03);
   border-radius: 4px;
   width: 600px;
-  margin: 15px 0;
 }
 .courses__box {
   margin: 32px;
@@ -545,15 +545,38 @@ body {
   text-align: center;
 }
 .events__column {
-  padding: -24px 0;
+  display: grid;
+  gap: 24px 0;
+  padding: 0 0 60px 0;
 }
 .events__field {
-  margin: 24px 0;
   display: flex;
   padding: 32px 40px;
   background-color: #FFFFFF;
   border-radius: 4px;
 }
+.events__foot {
+  display: flex;
+  justify-content: center;
+  padding: 0 0 80px 0;
+}
+.events__descr {
+  font-size: 28px;
+  line-height: 150%;
+  color: #1E212C;
+  margin: 0 40px 0 0;
+}
+.events__btn {
+  background: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
+  border-radius: 4px;
+  -webkit-background-clip: none;
+  -webkit-text-fill-color: #FFFFFF;
+  font-size: 14px;
+  line-height: 44px;
+  letter-spacing: 0.5px;
+  padding: 0 40px;
+}
+
 .field {
   display: flex;
   align-items: flex-start;
