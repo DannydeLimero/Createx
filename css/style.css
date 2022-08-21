@@ -414,23 +414,22 @@ body {
 .benefits__subtitle {
   margin: 0 0 8px 0;
 }
-.benefits__title {
-  font-family: "Lato-Black";
-}
 .benefits__btns {
   display: flex;
   justify-content: space-between;
   padding: 0 0 60px 0;
 }
 .benefits__btn {
+  position: relative;
   border-radius: 4px;
   font-size: 16px;
   line-height: 160%;
   color: #9A9CA5;
   background-color: transparent;
-  padding: 10px 40px;
+  padding: 10px 0;
   transition: all 0.5s ease 0s;
   border: 1px solid #FFFFFF;
+  flex: 1 1 auto;
 }
 .benefits__hover:hover {
   font-size: 16px;
@@ -466,4 +465,125 @@ body {
   line-height: 160%;
   color: #FF3F3A;
   border: 1px solid #FF3F3A;
+}
+
+.btns__tutors:before {
+  position: absolute;
+  content: "";
+  top: 30%;
+  left: 20%;
+  background-image: url(../img/main-page/benefits/Star-gray.svg);
+  height: 15px;
+  width: 15px;
+  transition: all 0.5s ease 0s;
+}
+.btns__tutors:hover:before {
+  position: absolute;
+  content: "";
+  top: 30%;
+  left: 20%;
+  background-image: url(../img/main-page/benefits/Star-red.svg);
+  height: 15px;
+  width: 15px;
+  transition: all 0.5s ease 0s;
+}
+.btns__tutors.active:before {
+  position: absolute;
+  content: "";
+  top: 30%;
+  left: 20%;
+  background-image: url(../img/main-page/benefits/Star-red.svg);
+  height: 15px;
+  width: 15px;
+  transition: all 0.5s ease 0s;
+}
+.btns__feedback:before {
+  position: absolute;
+  content: "";
+  top: 30%;
+  left: 20%;
+  background-image: url(../img/main-page/benefits/like-grey.svg);
+  height: 15px;
+  width: 15px;
+  transition: all 0.5s ease 0s;
+}
+.btns__feedback:hover:before {
+  position: absolute;
+  content: "";
+  top: 30%;
+  left: 20%;
+  background-image: url(../img/main-page/benefits/like-red.svg);
+  height: 15px;
+  width: 15px;
+  transition: all 0.5s ease 0s;
+}
+.btns__feedback.active:before {
+  position: absolute;
+  content: "";
+  top: 30%;
+  left: 20%;
+  background-image: url(../img/main-page/benefits/like-red.svg);
+  height: 15px;
+  width: 15px;
+  transition: all 0.5s ease 0s;
+}
+.btns__library:before {
+  position: absolute;
+  content: "";
+  top: 30%;
+  left: 20%;
+  background-image: url(../img/main-page/benefits/Layouts-grey.svg);
+  height: 15px;
+  width: 15px;
+  transition: all 0.5s ease 0s;
+}
+.btns__library:hover:before {
+  position: absolute;
+  content: "";
+  top: 30%;
+  left: 20%;
+  background-image: url(../img/main-page/benefits/Layouts-red.svg);
+  height: 15px;
+  width: 15px;
+  transition: all 0.5s ease 0s;
+}
+.btns__library.active:before {
+  position: absolute;
+  content: "";
+  top: 30%;
+  left: 20%;
+  background-image: url(../img/main-page/benefits/Layouts-red.svg);
+  height: 15px;
+  width: 15px;
+  transition: all 0.5s ease 0s;
+}
+.btns__community:before {
+  position: absolute;
+  content: "";
+  top: 30%;
+  left: 20%;
+  background-image: url(../img/main-page/benefits/Chat-grey.svg);
+  height: 15px;
+  width: 15px;
+  transition: all 0.5s ease 0s;
+}
+.btns__community:hover:before {
+  position: absolute;
+  content: "";
+  top: 30%;
+  left: 20%;
+  background-image: url(../img/main-page/benefits/Chat-red.svg);
+  height: 15px;
+  width: 15px;
+  transition: all 0.5s ease 0s;
+}
+.btns__community.active:before {
+  position: absolute;
+  content: "";
+  top: 30%;
+  left: 20%;
+  background-image: url(../img/main-page/benefits/Chat-red.svg);
+  height: 15px;
+  width: 15px;
+  transition: all 0.5s ease 0s;
 }/*# sourceMappingURL=style.css.map */
