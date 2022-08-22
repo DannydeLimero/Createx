@@ -3,9 +3,9 @@ $(document).ready(function() {
         $('.benefits__btn').removeClass('active');
         $(this).addClass('active')
     });
-    /*$('.team__slider').slick({
-        infinite: true,
+    $('.slider').slick({
         slidesToShow: 4,
-        slidesToScroll: 4
-      });*/
+        slidesToScroll: 4,
+        infinite: false,
+      });
 });

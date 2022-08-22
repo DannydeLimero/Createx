@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*-----------------------------RESET-------------------------*/
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -98,6 +99,12 @@ body {
 
 .bg-wrap {
   background-image: url(../img/main-page/background1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.bg-wrap2 {
+  background-image: url(../img/main-page/team/Background.png);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -707,20 +714,58 @@ body {
 
 .team__content {
   padding: 166px 0 0 0;
+  min-width: 0;
 }
-.team__slider {
-  display: flex;
-  justify-content: space-between;
+.team__subtitle {
+  margin: 0 0 8px 0;
+}
+.team__title {
+  font-family: "Lato-Black";
 }
 
+.slider {
+  position: relative;
+  overflow: hidden;
+}
 .slider__item {
+  width: 100%;
+  opacity: 0;
   text-align: center;
   position: relative;
+  margin: 0 0 180px 0;
+  transition: all 0.5s ease 0s;
+}
+.slider__item:hover {
+  transition: all 0.5s ease 0s;
+}
+.slider__item:hover::before {
+  opacity: 1;
+}
+.slider__item:hover .social {
+  opacity: 1;
+  transition: all 0.5s ease 0s;
+}
+.slider__item::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 12px;
+  right: 0;
+  bottom: 0;
+  border-radius: 4px;
+  background-image: url(../img/main-page/team/slider/gradient.png);
+  background-repeat: no-repeat;
+  transition: all 0.5s ease 0s;
+  opacity: 0;
+}
+.slider__img {
+  margin: 0 0 16px 0;
 }
 .slider__name {
   font-size: 20px;
   line-height: 150%;
   color: #424551;
+  margin: 0 0 4px 0;
 }
 .slider__position {
   font-family: "Lato-Regular";
@@ -731,7 +776,62 @@ body {
 
 .social {
   position: absolute;
-  bottom: 60px;
+  bottom: 90px;
   right: 20px;
-  display: inline-block;
-}/*# sourceMappingURL=style.css.map */
+  opacity: 0;
+  transition: all 0.5s ease 0s;
+}
+.social__facebook {
+  margin: 0 8px 0 0;
+}
+.social__instagram {
+  margin: 0 8px 0 0;
+}
+/* Лента слайдов */
+.slick-slider {
+  padding: 60px 0 0 0;
+}
+
+.slick-track {
+  display: flex;
+}
+
+.slider__item.slick-active {
+  opacity: 1;
+}
+
+.slick-arrow {
+  position: absolute;
+  font-size: 0;
+}
+
+.slick-prev {
+  top: 0;
+  right: 40px;
+  height: 24px;
+  width: 24px;
+  background: url(../img/main-page/team/slider/prev-btn.png) 0 0/100% no-repeat;
+  transition: all 0.5s ease 0s;
+}
+.slick-prev:hover {
+  background: url(../img/main-page/team/slider/prev-hover.png) 0 0/100% no-repeat;
+  height: 48px;
+  width: 48px;
+  transition: all 0.5s ease 0s;
+}
+
+.slick-next {
+  top: 0;
+  right: 0;
+  height: 24px;
+  width: 24px;
+  background: url(../img/main-page/team/slider/next-btn.png) 0 0/100% no-repeat;
+  transition: all 0.5s ease 0s;
+}
+.slick-next:hover {
+  background: url(../img/main-page/team/slider/next-hover.png) 0 0/100% no-repeat;
+  height: 48px;
+  width: 48px;
+}
+
+/*boogie*//*# sourceMappingURL=style.css.map */

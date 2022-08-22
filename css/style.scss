@@ -100,6 +100,12 @@ body {
 	background-repeat: no-repeat;
 }
 
+.bg-wrap2 {
+	background-image: url(../img/main-page/team/Background.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
 .header {
 	&__row {
 		display: flex;
@@ -841,40 +847,66 @@ body {
 
 	&__content {
 		padding: 166px 0 0 0;
+		min-width: 0;
 	}
 
 	&__row {
 	}
 
 	&__subtitle {
+		margin: 0 0 8px 0;
 	}
 
 	&__title {
-	}
-
-	&__slider {
-		display: flex;
-		justify-content: space-between;
+		font-family: 'Lato-Black';
 	}
 }
 
 .slider {
-
+	position: relative;
+	overflow: hidden;
 	&__item {
+		width: 100%;
+		opacity: 0;
 		text-align: center;
 		position: relative;
+		margin: 0 0 180px 0;
+		transition: all 0.5s ease 0s;
+		&:hover {
+			transition: all 0.5s ease 0s;
+			&::before {
+				opacity: 1;
+			}
+			& .social {
+				opacity: 1;
+				transition: all 0.5s ease 0s;
+			}
+		}
+		&::before {
+			content: "";
+			position: absolute;
+			top: 0;
+			left: 12px;
+			right: 0;
+			bottom: 0;
+			border-radius: 4px; 
+			background-image: url(../img/main-page/team/slider/gradient.png);
+			background-repeat: no-repeat;
+			transition: all 0.5s ease 0s;
+			opacity: 0;
+		}
 	}
 
 	&__img {
+		margin: 0 0 16px 0;
 	}
-
-	&__social {
-	}
+	
 
 	&__name {
 		font-size: 20px;
 		line-height: 150%;
 		color: #424551;
+		margin: 0 0 4px 0;
 	}
 
 	&__position {
@@ -886,15 +918,66 @@ body {
 }
 .social {
 	position: absolute;
-	bottom: 60px;
+	bottom: 90px;
 	right: 20px;
-	display: inline-block;
+	opacity: 0;
+	transition: all 0.5s ease 0s;
 	&__facebook {
+		margin: 0 8px 0 0;
 	}
 
 	&__instagram {
+		margin: 0 8px 0 0;
 	}
 
 	&__linkedin {
 	}
 }
+
+/* Лента слайдов */
+.slick-slider {
+	padding: 60px 0 0 0;
+}
+.slick-track {
+	display: flex;
+}
+
+.slider__item.slick-active {
+    opacity: 1;
+}
+
+.slick-arrow {
+	position: absolute;
+	font-size: 0;
+}
+
+.slick-prev {
+	top: 0;
+	right: 40px;
+	height: 24px;
+	width: 24px;
+	background: url(../img/main-page/team/slider/prev-btn.png) 0 0 / 100% no-repeat;
+	transition: all 0.5s ease 0s;
+	&:hover {
+		background: url(../img/main-page/team/slider/prev-hover.png) 0 0 / 100% no-repeat;
+		height: 48px;
+		width: 48px;
+		transition: all 0.5s ease 0s;
+	}
+}
+.slick-next {
+	top: 0;
+	right: 0;
+	height: 24px;
+	width: 24px;
+	background: url(../img/main-page/team/slider/next-btn.png) 0 0 / 100% no-repeat;
+	transition: all 0.5s ease 0s;
+	&:hover {
+		background: url(../img/main-page/team/slider/next-hover.png) 0 0 / 100% no-repeat;
+		height: 48px;
+		width: 48px;
+	}
+}
+/*boogie*/
+
+
