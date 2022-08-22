@@ -637,9 +637,18 @@ body {
 }
 
 .events {
+	position: relative;
 	background-image: url(../img/main-page/events/bg-color.png);
 	background-size: cover;
 	background-repeat: no-repeat;
+	&:before {
+		position: absolute;
+		content: url(../img/main-page/events/dots.svg);
+		height: 159px;
+		width: 116px;
+		bottom: 0;
+		left: 0;
+	}
 	&__content {
 		padding: 80px 0 0 0;
 	}
@@ -689,6 +698,7 @@ body {
 		line-height: 44px;
 		letter-spacing: 0.5px;
 		padding: 0 40px;
+		cursor: pointer;
 	}
 }
 
