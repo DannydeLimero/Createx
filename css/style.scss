@@ -953,17 +953,28 @@ body {
 
 .slick-prev {
 	top: 0;
-	right: 40px;
+	right: 64px;
 	height: 24px;
 	width: 24px;
 	background: url(../img/main-page/team/slider/prev-btn.png) 0 0 / 100% no-repeat;
 	transition: all 0.5s ease 0s;
-	&:hover {
+	&:before {
+		content: '';
 		background: url(../img/main-page/team/slider/prev-hover.png) 0 0 / 100% no-repeat;
 		height: 48px;
 		width: 48px;
 		transition: all 0.5s ease 0s;
+		opacity: 0;
+		&:hover {
+			opacity: 1;
+		}
 	}
+	/*&:hover {
+		background: url(../img/main-page/team/slider/prev-hover.png) 0 0 / 100% no-repeat;
+		height: 48px;
+		width: 48px;
+		transition: all 0.5s ease 0s;
+	}*/
 }
 .slick-next {
 	top: 0;
