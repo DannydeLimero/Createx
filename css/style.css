@@ -703,4 +703,35 @@ body {
   border: 1px solid #E5E8ED;
   box-shadow: 0px 80px 80px -20px rgba(154, 156, 165, 0.16), 0px 30px 24px -10px rgba(154, 156, 165, 0.1), 0px 12px 10px -6px rgba(154, 156, 165, 0.08), 0px 4px 4px -4px rgba(30, 33, 44, 0.05);
   border-radius: 4px;
+}
+
+.team__content {
+  padding: 166px 0 0 0;
+}
+.team__slider {
+  display: flex;
+  justify-content: space-between;
+}
+
+.slider__item {
+  text-align: center;
+  position: relative;
+}
+.slider__name {
+  font-size: 20px;
+  line-height: 150%;
+  color: #424551;
+}
+.slider__position {
+  font-family: "Lato-Regular";
+  font-size: 16px;
+  line-height: 160%;
+  color: #787A80;
+}
+
+.social {
+  position: absolute;
+  bottom: 60px;
+  right: 20px;
+  display: inline-block;
 }/*# sourceMappingURL=style.css.map */

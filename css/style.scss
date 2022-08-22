@@ -840,6 +840,7 @@ body {
 .team {
 
 	&__content {
+		padding: 166px 0 0 0;
 	}
 
 	&__row {
@@ -852,12 +853,16 @@ body {
 	}
 
 	&__slider {
+		display: flex;
+		justify-content: space-between;
 	}
 }
 
 .slider {
 
 	&__item {
+		text-align: center;
+		position: relative;
 	}
 
 	&__img {
@@ -867,13 +872,23 @@ body {
 	}
 
 	&__name {
+		font-size: 20px;
+		line-height: 150%;
+		color: #424551;
 	}
 
 	&__position {
+		font-family: 'Lato-Regular';
+		font-size: 16px;
+		line-height: 160%;
+		color: #787A80;
 	}
 }
 .social {
-
+	position: absolute;
+	bottom: 60px;
+	right: 20px;
+	display: inline-block;
 	&__facebook {
 	}
 
