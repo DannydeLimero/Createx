@@ -667,4 +667,40 @@ body {
   border-radius: 4px;
   -webkit-background-clip: none;
   -webkit-text-fill-color: #FFFFFF;
+}
+
+.certificate__content {
+  padding: 120px 0 120px 0;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+.certificate__column {
+  flex: 0 1 32%;
+}
+.certificate__subtitle {
+  margin: 0 0 8px 0;
+}
+.certificate__title {
+  font-family: "Lato-Black";
+  margin: 0 0 48px 0;
+}
+.certificate__descr {
+  font-family: "Lato-Regular";
+  font-size: 16px;
+  line-height: 160%;
+  color: #424551;
+}
+.certificate__row {
+  display: flex;
+  justify-content: space-between;
+  margin: 32px 0 0 0;
+}
+.certificate__img {
+  position: absolute;
+  top: 120px;
+  right: 0;
+  border: 1px solid #E5E8ED;
+  box-shadow: 0px 80px 80px -20px rgba(154, 156, 165, 0.16), 0px 30px 24px -10px rgba(154, 156, 165, 0.1), 0px 12px 10px -6px rgba(154, 156, 165, 0.08), 0px 4px 4px -4px rgba(30, 33, 44, 0.05);
+  border-radius: 4px;
 }/*# sourceMappingURL=style.css.map */
