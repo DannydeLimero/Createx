@@ -5,7 +5,8 @@ $(document).ready(function() {
     });
     $('.slider').slick({
         slidesToShow: 4,
-        slidesToScroll: 1,
+        slidesToScroll: 2,
         infinite: false,
+        speed:750,
       });
 });
