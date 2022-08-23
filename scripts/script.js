@@ -8,5 +8,5 @@ $(document).ready(function() {
         slidesToScroll: 2,
         infinite: false,
         speed:750,
-      });
+    });
 });
