@@ -1203,26 +1203,47 @@ body {
 }
 
 .subscribe {
+	position: relative;
 	display: flex;
 	background: url(../img/main-page/subscribe/background.png) 0 0 / cover no-repeat;
 	&:before {
+		position: absolute;
 		content: url(../img/main-page/subscribe/illustration.png);
+		bottom: 0;
+		left: 0;
 	}
 	&:after {
+		position: absolute;
 		content: url(../img/main-page/subscribe/illustration.png);
+		bottom: 0;
+		right: 0;
 	}
 	&__content {
-	}
-
-	&__subtitle {
-	}
-
-	&__title {
+		padding: 120px 0 180px 0;
+		text-align: center;
 	}
 
 	&__row {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin: 60px 0 0 0;
+	}
+
+	&__input {
+		height: 50px;
+		width: 408px;
+		background: #FFFFFF;
+		border: 1px solid #D7DADD;
+		border-radius: 4px;
+		padding: 0 0 0 16px;
+		margin: 0 24px 0 0;
+		font-size: 16px;
+		line-height: 160%;
+		color: #9A9CA5;
 	}
 
 	&__btn {
+		padding: 0 40px;
 	}
 }
