@@ -945,6 +945,9 @@ body {
   background-color: #424551;
 }
 
+.blog__content {
+  padding: 0 0 180px 0;
+}
 .blog__row {
   display: flex;
   justify-content: space-between;
@@ -957,6 +960,7 @@ body {
 .blog__box {
   display: flex;
   justify-content: space-between;
+  gap: 30px;
 }
 .blog__item {
   position: relative;
@@ -987,4 +991,57 @@ body {
 }
 .blog__img {
   border-radius: 4px;
+}
+.blog__item-row {
+  padding: 16px 0;
+}
+.blog__item-row span {
+  font-size: 14px;
+  line-height: 150%;
+  color: #787A80;
+}
+.blog__name {
+  margin: 0 12px 0 0;
+}
+.blog__date {
+  margin: 0 12px 0 0;
+}
+.blog__date:before {
+  content: url(../img/main-page/blog/Calendar.svg);
+  vertical-align: middle;
+  margin: 0 8px 0 12px;
+}
+.blog__time:before {
+  content: url(../img/main-page/blog/Clock.svg);
+  vertical-align: middle;
+  margin: 0 8px 0 12px;
+}
+.blog__text {
+  font-size: 20px;
+  line-height: 150%;
+  color: #1E212C;
+  margin: 0 0 8px 0;
+}
+.blog__descr {
+  font-size: 16px;
+  line-height: 160%;
+  color: #424551;
+  margin: 0 0 16px 0;
+}
+.blog__link {
+  position: relative;
+  font-size: 16px;
+  line-height: 160%;
+  color: #1E212C;
+  padding: 0 8px 0 0;
+}
+.blog__link:after {
+  position: absolute;
+  content: "";
+  width: 24px;
+  height: 24px;
+  background-image: url(../img/main-page/blog/Right.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  right: -24px;
 }/*# sourceMappingURL=style.css.map */
