@@ -949,4 +949,42 @@ body {
   display: flex;
   justify-content: space-between;
   padding: 0 0 60px 0;
+}
+.blog__btn {
+  padding: 0 40px;
+  align-self: flex-end;
+}
+.blog__box {
+  display: flex;
+  justify-content: space-between;
+}
+.blog__item {
+  position: relative;
+  flex: 0 1 33.3%;
+}
+.blog__pseudo {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  padding: 1px 8px;
+  background-color: #FFFFFF;
+  border-radius: 4px;
+}
+.blog__pseudo.mic:before {
+  content: url(../img/main-page/blog/mic.svg);
+  vertical-align: middle;
+  margin: 0 4px 0 0;
+}
+.blog__pseudo.play:before {
+  content: url(../img/main-page/blog/Play.svg);
+  vertical-align: middle;
+  margin: 0 4px 0 0;
+}
+.blog__pseudo.files:before {
+  content: url(../img/main-page/blog/Files.svg);
+  vertical-align: middle;
+  margin: 0 4px 0 0;
+}
+.blog__img {
+  border-radius: 4px;
 }/*# sourceMappingURL=style.css.map */

@@ -1099,19 +1099,46 @@ body {
 	}
 
 	&__btn {
-		
+		padding: 0 40px;
+		align-self: flex-end;
 	}
 
 	&__box {
+		display: flex;
+		justify-content: space-between;
 	}
 
 	&__item {
+		position: relative;
+		flex: 0 1 33.3%;
 	}
 
 	&__pseudo {
+		position: absolute;
+		top: 12px;
+		left: 12px;
+		padding: 1px 8px;
+		background-color: #FFFFFF;
+		border-radius: 4px;
+		&.mic:before {
+			content: url(../img/main-page/blog/mic.svg);
+			vertical-align: middle;
+			margin: 0 4px 0 0;
+		}
+		&.play:before {
+			content: url(../img/main-page/blog/Play.svg);
+			vertical-align: middle;
+			margin: 0 4px 0 0;
+		}
+		&.files:before {
+			content: url(../img/main-page/blog/Files.svg);
+			vertical-align: middle;
+			margin: 0 4px 0 0;
+		}
 	}
 
 	&__img {
+		border-radius: 4px;
 	}
 
 	&__item-row {
