@@ -703,6 +703,7 @@ body {
 .slider {
   position: relative;
   overflow: hidden;
+  padding: 60px 0 180px 0;
 }
 .slider__item {
   width: 100%;
@@ -719,9 +720,28 @@ body {
   opacity: 1;
 }
 .slider__item:hover .social {
-  display: block;
-  opacity: 1;
   transition: all 0.5s ease 0s;
+}
+.slider__item:hover .social__facebook {
+  display: block;
+  opacity: 0.6;
+}
+.slider__item:hover .social__facebook:hover {
+  opacity: 1;
+}
+.slider__item:hover .social__instagram {
+  display: block;
+  opacity: 0.6;
+}
+.slider__item:hover .social__instagram:hover {
+  opacity: 1;
+}
+.slider__item:hover .social__linkedin {
+  display: block;
+  opacity: 0.6;
+}
+.slider__item:hover .social__linkedin:hover {
+  opacity: 1;
 }
 .slider__item::before {
   content: "";
@@ -750,23 +770,6 @@ body {
   font-size: 16px;
   line-height: 160%;
   color: #787A80;
-}
-
-.social {
-  display: none;
-  position: absolute;
-  bottom: 90px;
-  right: 20px;
-  opacity: 0;
-}
-.social__facebook {
-  margin: 0 8px 0 0;
-}
-.social__instagram {
-  margin: 0 8px 0 0;
-}
-.slider {
-  padding: 60px 0 180px 0;
 }
 .slider .slick-track {
   display: flex;
@@ -808,6 +811,27 @@ body {
   background: url(../img/main-page/team/slider/next-btn.png);
   background-repeat: no-repeat;
   background-position: center;
+}
+
+.social {
+  display: flex;
+  position: absolute;
+  bottom: 90px;
+  right: 20px;
+}
+.social__facebook {
+  display: none;
+  opacity: 0;
+  margin: 0 8px 0 0;
+}
+.social__instagram {
+  display: none;
+  opacity: 0;
+  margin: 0 8px 0 0;
+}
+.social__linkedin {
+  opacity: 0;
+  display: none;
 }
 
 .testimonials__content {
