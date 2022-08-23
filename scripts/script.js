@@ -5,7 +5,7 @@ $(document).ready(function() {
     });
     $('.slider').slick({
         slidesToShow: 4,
-        slidesToScroll: 2,
+        slidesToScroll: 4,
         infinite: false,
         speed:750,
         wairForAnimate:false
