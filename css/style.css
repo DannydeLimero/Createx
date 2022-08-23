@@ -83,6 +83,7 @@ body {
 }
 
 .subtitle {
+  margin: 0 0 8px 0;
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 1px;
@@ -91,6 +92,7 @@ body {
 }
 
 .title {
+  font-family: "Lato-Black";
   font-size: 46px;
   line-height: 130%;
   color: #1E212C;
@@ -204,7 +206,6 @@ body {
   opacity: 1;
 }
 .main__title {
-  font-family: "Lato-Black";
   font-size: 64px;
   line-height: 130%;
   letter-spacing: 1px;
@@ -284,9 +285,6 @@ body {
 .about__column {
   margin: 0 0 0 135px;
 }
-.about__subtitle {
-  margin: 0 8px 0 0;
-}
 .about__title {
   margin: 0 40px 0 0;
 }
@@ -313,9 +311,6 @@ body {
   display: flex;
   justify-content: space-between;
   margin: 0 0 60px 0;
-}
-.courses__subtitle {
-  margin: 0 0 8px 0;
 }
 .courses__btn {
   display: flex;
@@ -417,9 +412,6 @@ body {
 .benefits__text {
   text-align: center;
   padding: 0 0 60px 0;
-}
-.benefits__subtitle {
-  margin: 0 0 8px 0;
 }
 .benefits__btns {
   display: flex;
@@ -685,11 +677,7 @@ body {
 .certificate__column {
   flex: 0 1 32%;
 }
-.certificate__subtitle {
-  margin: 0 0 8px 0;
-}
 .certificate__title {
-  font-family: "Lato-Black";
   margin: 0 0 48px 0;
 }
 .certificate__descr {
@@ -716,13 +704,6 @@ body {
   padding: 166px 0 180px 0;
   min-width: 0;
 }
-.team__subtitle {
-  margin: 0 0 8px 0;
-}
-.team__title {
-  font-family: "Lato-Black";
-}
-
 .slider {
   position: relative;
   overflow: hidden;
@@ -839,12 +820,6 @@ body {
 .testimonials__row {
   text-align: center;
 }
-.testimonials__subtitle {
-  margin: 0 0 8px 0;
-}
-.testimonials__title {
-  font-family: "Lato-Black";
-}
 
 .slider-wide {
   position: relative;
@@ -853,6 +828,7 @@ body {
 .slider-wide__item {
   padding: 60px 105px;
   opacity: 0;
+  transition: all 0.5s ease 0s;
 }
 .slider-wide__field {
   max-width: 1020px;
@@ -915,6 +891,7 @@ body {
 }
 .slider-wide .slick-active {
   opacity: 1;
+  transition: all 0.5s ease 0s;
 }
 .slider-wide .slick-arrow {
   position: absolute;
@@ -966,4 +943,10 @@ body {
 }
 .slider-wide .slick-dots .slick-active button {
   background-color: #424551;
+}
+
+.blog__row {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 0 60px 0;
 }/*# sourceMappingURL=style.css.map */

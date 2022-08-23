@@ -79,6 +79,7 @@ body {
 }
 
 .subtitle {
+	margin: 0 0 8px 0;
 	font-size: 16px;
 	line-height: 150%;
 	letter-spacing: 1px;
@@ -88,6 +89,7 @@ body {
 }
 
 .title {
+	font-family: 'Lato-Black';
 	font-size: 46px;
 	line-height: 130%;
 	color: #1E212C;
@@ -221,7 +223,6 @@ body {
 	}
 
 	&__title {
-		font-family: 'Lato-Black';
 		font-size: 64px;
 		line-height: 130%;
 		letter-spacing: 1px;
@@ -316,10 +317,6 @@ body {
 		margin: 0 0 0 135px;
 	}
 
-	&__subtitle {
-		margin: 0 8px 0 0;
-	}
-
 	&__title {
 		margin: 0 40px 0 0;
 	}
@@ -354,13 +351,6 @@ body {
 	}
 
 	&__text {
-	}
-
-	&__subtitle {
-		margin: 0 0 8px 0;
-	}
-
-	&__title {
 	}
 
 	&__btn {
@@ -477,13 +467,6 @@ body {
 	&__text {
 		text-align: center;
 		padding: 0 0 60px 0;
-	}
-
-	&__subtitle {
-		margin: 0 0 8px 0;
-	}
-
-	&__title {
 	}
 
 	&__btns {
@@ -663,12 +646,6 @@ body {
 		text-align: center;
 	}
 
-	&__subtitle {
-	}
-
-	&__title {
-	}
-
 	&__column {
 		display: grid;
 		gap: 24px 0;
@@ -812,12 +789,7 @@ body {
 		flex: 0 1 32%;
 	}
 
-	&__subtitle {
-		margin: 0 0 8px 0;
-	}
-
 	&__title {
-		font-family: 'Lato-Black';
 		margin: 0 0 48px 0;
 	}
 
@@ -852,14 +824,6 @@ body {
 	}
 
 	&__row {
-	}
-
-	&__subtitle {
-		margin: 0 0 8px 0;
-	}
-
-	&__title {
-		font-family: 'Lato-Black';
 	}
 }
 
@@ -990,14 +954,6 @@ body {
 	&__row {
 		text-align: center;
 	}
-
-	&__subtitle {
-		margin: 0 0 8px 0;
-	}
-
-	&__title {
-		font-family: 'Lato-Black';
-	}
 }
 
 .slider-wide {
@@ -1006,6 +962,7 @@ body {
 	&__item {
 		padding: 60px 105px;
 		opacity: 0;
+		transition: all 0.5s ease 0s;
 	}
 
 	&__field {
@@ -1073,6 +1030,7 @@ body {
 	}
 	& .slick-active {
 		opacity: 1;
+		transition: all 0.5s ease 0s;
 	}
 	& .slick-arrow {
 		position: absolute;
@@ -1126,5 +1084,54 @@ body {
 		& .slick-active button {
 			background-color: #424551;
 		}
+	}
+}
+
+.blog {
+
+	&__content {
+	}
+
+	&__row {
+		display: flex;
+		justify-content: space-between;
+		padding: 0 0 60px 0;
+	}
+
+	&__btn {
+		
+	}
+
+	&__box {
+	}
+
+	&__item {
+	}
+
+	&__pseudo {
+	}
+
+	&__img {
+	}
+
+	&__item-row {
+	}
+
+	&__name {
+	}
+
+	&__date {
+	}
+
+	&__time {
+	}
+
+	&__text {
+	}
+
+	&__descr {
+	}
+
+	&__link {
 	}
 }
