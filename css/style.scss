@@ -956,39 +956,40 @@ body {
 	right: 64px;
 	height: 24px;
 	width: 24px;
-	background: url(../img/main-page/team/slider/prev-btn.png) 0 0 / 100% no-repeat;
-	transition: all 0.5s ease 0s;
-	&:before {
-		content: '';
+	background: url(../img/main-page/team/slider/prev-btn.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	padding: 24px;
+	&:hover {
 		background: url(../img/main-page/team/slider/prev-hover.png) 0 0 / 100% no-repeat;
 		height: 48px;
 		width: 48px;
-		transition: all 0.5s ease 0s;
-		opacity: 0;
-		&:hover {
-			opacity: 1;
-		}
 	}
-	/*&:hover {
-		background: url(../img/main-page/team/slider/prev-hover.png) 0 0 / 100% no-repeat;
-		height: 48px;
-		width: 48px;
-		transition: all 0.5s ease 0s;
-	}*/
+	&.slick-disabled {
+		background: url(../img/main-page/team/slider/prev-btn.png);
+		background-repeat: no-repeat;
+		background-position: center;
+	}
 }
 .slick-next {
 	top: 0;
 	right: 0;
 	height: 24px;
 	width: 24px;
-	background: url(../img/main-page/team/slider/next-btn.png) 0 0 / 100% no-repeat;
-	transition: all 0.5s ease 0s;
+	background: url(../img/main-page/team/slider/next-btn.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	padding: 24px;
 	&:hover {
 		background: url(../img/main-page/team/slider/next-hover.png) 0 0 / 100% no-repeat;
 		height: 48px;
 		width: 48px;
 	}
+	&.slick-disabled {
+		background: url(../img/main-page/team/slider/next-btn.png);
+		background-repeat: no-repeat;
+		background-position: center;
+	}
 }
+
 /*boogie*/
-
-
