@@ -724,6 +724,7 @@ body {
 		line-height: 130%;
 		letter-spacing: 1px;
 		color: #FF3F3A;
+		align-items: center;
 	}
 
 	&__month {
@@ -987,38 +988,79 @@ body {
 	}
 
 	&__row {
+		text-align: center;
 	}
 
 	&__subtitle {
+		margin: 0 0 8px 0;
 	}
 
 	&__title {
+		font-family: 'Lato-Black';
 	}
 
-	&__slider {
+	&__slider-wide {
 	}
 }
 
 .slider-wide {
 
 	&__item {
+		padding: 60px 105px;
 	}
 
 	&__field {
+		max-width: 1020px;
+		background-color: #FFFFFF;
+		padding: 64px 105px;
 	}
 
 	&__text {
+		position: relative;
+		font-family: 'Lato-Regular';
+		font-size: 20px;
+		line-height: 150%;
+		color: #424551;
+		margin: 0 0 24px 0;
+		&:before {
+			position: absolute;
+			content: url(../img/main-page/testimonials/braces.png);
+			width: 28px;
+			height: 20px;
+			top: 0;
+			left: -58px;
+		}
 	}
 
 	&__badge {
+		display: grid;
+		grid-template-areas: 'img name''img position';
+		column-gap: 20px;
+		grid-template-columns: 72px 150px;
 	}
 
 	&__img {
+		grid-area: img;
+		border-radius: 50%;
+		width: 72px;
+		height: 72px;
 	}
 
 	&__name {
+		grid-area: name;
+		font-size: 16px;
+		line-height: 160%;
+		color: #1E212C;
+		align-self: flex-end;
+		margin: 0 0 4px 0;
 	}
 
 	&__position {
+		grid-area: position;
+		font-family: 'Lato-Regular';
+		font-size: 14px;
+		line-height: 150%;
+		color: #787A80;
+		align-self: flex-start;
 	}
 }
