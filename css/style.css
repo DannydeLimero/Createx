@@ -697,7 +697,7 @@ body {
 }
 
 .team__content {
-  padding: 166px 0 180px 0;
+  padding: 166px 0 0 0;
   min-width: 0;
 }
 .slider {
@@ -766,7 +766,7 @@ body {
   margin: 0 8px 0 0;
 }
 .slider {
-  padding: 60px 0 0 0;
+  padding: 60px 0 180px 0;
 }
 .slider .slick-track {
   display: flex;
