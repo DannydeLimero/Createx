@@ -97,15 +97,11 @@ body {
 //-------------------------------HEADER-----------------------------//
 
 .bg-wrap {
-	background-image: url(../img/main-page/background1.png);
-	background-size: cover;
-	background-repeat: no-repeat;
+	background: url(../img/main-page/background1.png) 0 0 / cover no-repeat;
 }
 
 .bg-wrap2 {
-	background-image: url(../img/main-page/team/Background.png);
-	background-size: cover;
-	background-repeat: no-repeat;
+	background: url(../img/main-page/team/Background.png) 0 0 / cover no-repeat;
 }
 
 .header {
@@ -1203,5 +1199,30 @@ body {
 			background-repeat: no-repeat;
 			right: -24px;
 		}
+	}
+}
+
+.subscribe {
+	display: flex;
+	background: url(../img/main-page/subscribe/background.png) 0 0 / cover no-repeat;
+	&:before {
+		content: url(../img/main-page/subscribe/illustration.png);
+	}
+	&:after {
+		content: url(../img/main-page/subscribe/illustration.png);
+	}
+	&__content {
+	}
+
+	&__subtitle {
+	}
+
+	&__title {
+	}
+
+	&__row {
+	}
+
+	&__btn {
 	}
 }
