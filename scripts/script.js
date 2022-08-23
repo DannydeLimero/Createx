@@ -8,5 +8,13 @@ $(document).ready(function() {
         slidesToScroll: 2,
         infinite: false,
         speed:750,
+        wairForAnimate:false
+    });
+    $('.slider-wide').slick({
+        slidesToShow: 1,
+        infinite: false,
+        speed:750,
+        wairForAnimate:false,
+        dots:true
     });
 });

@@ -713,7 +713,7 @@ body {
 }
 
 .team__content {
-  padding: 166px 0 0 0;
+  padding: 166px 0 180px 0;
   min-width: 0;
 }
 .team__subtitle {
@@ -732,7 +732,6 @@ body {
   opacity: 0;
   text-align: center;
   position: relative;
-  margin: 0 0 180px 0;
   transition: all 0.5s ease 0s;
 }
 .slider__item:hover {
@@ -834,6 +833,9 @@ body {
   background-position: center;
 }
 
+.testimonials__content {
+  padding: 0 0 100px 0;
+}
 .testimonials__row {
   text-align: center;
 }
@@ -843,8 +845,14 @@ body {
 .testimonials__title {
   font-family: "Lato-Black";
 }
+
+.slider-wide {
+  position: relative;
+  overflow: hidden;
+}
 .slider-wide__item {
   padding: 60px 105px;
+  opacity: 0;
 }
 .slider-wide__field {
   max-width: 1020px;
@@ -895,4 +903,62 @@ body {
   line-height: 150%;
   color: #787A80;
   align-self: flex-start;
+}
+.slider-wide .slick-track {
+  display: flex;
+  justify-content: space-between;
+}
+.slider-wide .slick-active {
+  opacity: 1;
+}
+.slider-wide .slick-arrow {
+  position: absolute;
+  font-size: 0;
+  z-index: 10;
+}
+.slider-wide .slick-prev {
+  top: 40%;
+  left: 0;
+  height: 48px;
+  width: 48px;
+  background: url(../img/main-page/team/slider/prev-hover.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 24px;
+}
+.slider-wide .slick-prev.slick-disabled {
+  background: url(../img/main-page/team/slider/prev-btn.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.slider-wide .slick-next {
+  top: 40%;
+  right: 0;
+  height: 48px;
+  width: 48px;
+  background: url(../img/main-page/team/slider/next-hover.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 24px;
+}
+.slider-wide .slick-next.slick-disabled {
+  background: url(../img/main-page/team/slider/next-btn.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.slider-wide .slick-dots {
+  display: flex;
+  justify-content: center;
+}
+.slider-wide .slick-dots li:not(:last-child) {
+  margin: 0 12px 0 0;
+}
+.slider-wide .slick-dots button {
+  font-size: 0;
+  width: 30px;
+  height: 3px;
+  background-color: #B3B7BC;
+}
+.slider-wide .slick-dots .slick-active button {
+  background-color: #424551;
 }/*# sourceMappingURL=style.css.map */
