@@ -954,17 +954,12 @@ body {
 .slick-prev {
 	top: 0;
 	right: 64px;
-	height: 24px;
-	width: 24px;
-	background: url(../img/main-page/team/slider/prev-btn.png);
+	height: 48px;
+	width: 48px;
+	background: url(../img/main-page/team/slider/prev-hover.png);
 	background-repeat: no-repeat;
 	background-position: center;
 	padding: 24px;
-	&:hover {
-		background: url(../img/main-page/team/slider/prev-hover.png) 0 0 / 100% no-repeat;
-		height: 48px;
-		width: 48px;
-	}
 	&.slick-disabled {
 		background: url(../img/main-page/team/slider/prev-btn.png);
 		background-repeat: no-repeat;
@@ -974,17 +969,12 @@ body {
 .slick-next {
 	top: 0;
 	right: 0;
-	height: 24px;
-	width: 24px;
-	background: url(../img/main-page/team/slider/next-btn.png);
+	height: 48px;
+	width: 48px;
+	background: url(../img/main-page/team/slider/next-hover.png);
 	background-repeat: no-repeat;
 	background-position: center;
 	padding: 24px;
-	&:hover {
-		background: url(../img/main-page/team/slider/next-hover.png) 0 0 / 100% no-repeat;
-		height: 48px;
-		width: 48px;
-	}
 	&.slick-disabled {
 		background: url(../img/main-page/team/slider/next-btn.png);
 		background-repeat: no-repeat;
