@@ -742,6 +742,7 @@ body {
   opacity: 1;
 }
 .slider__item:hover .social {
+  display: block;
   opacity: 1;
   transition: all 0.5s ease 0s;
 }
@@ -775,11 +776,11 @@ body {
 }
 
 .social {
+  display: none;
   position: absolute;
   bottom: 90px;
   right: 20px;
   opacity: 0;
-  transition: all 0.5s ease 0s;
 }
 .social__facebook {
   margin: 0 8px 0 0;
@@ -792,6 +793,7 @@ body {
 }
 .slider .slick-track {
   display: flex;
+  justify-content: space-between;
 }
 .slider .slick-active {
   opacity: 1;

@@ -879,6 +879,7 @@ body {
 				opacity: 1;
 			}
 			& .social {
+				display: block;
 				opacity: 1;
 				transition: all 0.5s ease 0s;
 			}
@@ -918,11 +919,11 @@ body {
 	}
 }
 .social {
+	display: none;
 	position: absolute;
 	bottom: 90px;
 	right: 20px;
 	opacity: 0;
-	transition: all 0.5s ease 0s;
 	&__facebook {
 		margin: 0 8px 0 0;
 	}
@@ -939,6 +940,7 @@ body {
 	padding: 60px 0 0 0;
 	& .slick-track {
 		display: flex;
+		justify-content: space-between;
 	}
 	& .slick-active {
 		opacity: 1;
@@ -976,5 +978,47 @@ body {
 			background-repeat: no-repeat;
 			background-position: center;
 		}
+	}
+}
+
+.testimonials {
+
+	&__content {
+	}
+
+	&__row {
+	}
+
+	&__subtitle {
+	}
+
+	&__title {
+	}
+
+	&__slider {
+	}
+}
+
+.slider-wide {
+
+	&__item {
+	}
+
+	&__field {
+	}
+
+	&__text {
+	}
+
+	&__badge {
+	}
+
+	&__img {
+	}
+
+	&__name {
+	}
+
+	&__position {
 	}
 }
