@@ -1010,8 +1010,11 @@ body {
 
 	&__field {
 		max-width: 1020px;
+		min-height: 216px;
 		background-color: #FFFFFF;
 		padding: 64px 105px;
+		display: flex;
+		flex-direction: column;
 	}
 
 	&__text {
@@ -1021,6 +1024,7 @@ body {
 		line-height: 150%;
 		color: #424551;
 		margin: 0 0 24px 0;
+		flex: 1 1 auto;
 		&:before {
 			position: absolute;
 			content: url(../img/main-page/testimonials/braces.png);
@@ -1036,6 +1040,7 @@ body {
 		grid-template-areas: 'img name''img position';
 		column-gap: 20px;
 		grid-template-columns: 72px 150px;
+		justify-self: flex-end;
 	}
 
 	&__img {

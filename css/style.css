@@ -856,8 +856,11 @@ body {
 }
 .slider-wide__field {
   max-width: 1020px;
+  min-height: 216px;
   background-color: #FFFFFF;
   padding: 64px 105px;
+  display: flex;
+  flex-direction: column;
 }
 .slider-wide__text {
   position: relative;
@@ -866,6 +869,7 @@ body {
   line-height: 150%;
   color: #424551;
   margin: 0 0 24px 0;
+  flex: 1 1 auto;
 }
 .slider-wide__text:before {
   position: absolute;
@@ -881,6 +885,7 @@ body {
   -moz-column-gap: 20px;
        column-gap: 20px;
   grid-template-columns: 72px 150px;
+  justify-self: flex-end;
 }
 .slider-wide__img {
   grid-area: img;
