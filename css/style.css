@@ -198,7 +198,6 @@ body {
   transition: all 0.75s ease 0s;
 }
 .main__hover:hover {
-  transition: all 0.75s ease 0s;
   opacity: 1;
 }
 .main__title {
@@ -425,6 +424,7 @@ body {
   transition: all 0.5s ease 0s;
   border: 1px solid #FFFFFF;
   flex: 1 1 auto;
+  cursor: pointer;
 }
 .benefits__hover:hover {
   font-size: 16px;
@@ -1107,4 +1107,70 @@ body {
 }
 .subscribe__btn {
   padding: 0 40px;
+}
+
+.footer {
+  background: #1E212C;
+}
+.footer__content {
+  padding: 80px 0 0 0;
+  display: grid;
+  grid-template-columns: 23% 7% 9% 11% 24%;
+  grid-template-rows: 1fr;
+  -moz-column-gap: 80px;
+       column-gap: 80px;
+}
+.footer__item {
+  display: flex;
+  flex-direction: column;
+}
+.footer__logo {
+  margin: 0 0 24px 0;
+}
+.footer__descr {
+  font-family: "Lato-Regular";
+  font-size: 12px;
+  line-height: 150%;
+  color: #FFFFFF;
+  opacity: 0.6;
+  margin: 0 0 28px 0;
+}
+.footer__social a:not(:last-child) {
+  margin: 0 20px 0 0;
+}
+.footer__title {
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin: 0 0 12px 0;
+}
+.footer__subtitle {
+  font-family: "Lato-Regular";
+  font-size: 16px;
+  line-height: 160%;
+  color: #FFFFFF;
+  opacity: 0.6;
+}
+.footer__subtitle:not(:last-child) {
+  margin: 0 0 8px 0;
+}
+.footer__txt {
+  font-family: "Lato-Regular";
+  font-size: 10px;
+  line-height: 150%;
+  color: #FFFFFF;
+  margin: 12px 0 0 0;
+}
+.footer__row {
+  display: flex;
+  justify-content: space-between;
+}
+.footer__row a {
+  font-size: 14px;
+  text-transform: uppercase;
+  line-height: 150%;
+  color: #FFFFFF;
+  opacity: 0.6;
 }/*# sourceMappingURL=style.css.map */
