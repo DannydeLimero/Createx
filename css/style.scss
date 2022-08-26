@@ -1332,7 +1332,8 @@ body {
 		margin: 12px 0 0 0;
 	}
 
-	&__row {
+	&__end {
+		padding: 20px 0;
 		display: flex;
 		justify-content: space-between;
 		& a {
@@ -1344,6 +1345,14 @@ body {
 		}
 	}
 
+	&__end-wrap {
+		background: url(../img/main-page/footer/background-end.png) 0 0 / cover no-repeat;
+	}
+
 	&__text {
+		font-family: 'Lato-Regular';
+		font-size: 12px;
+		line-height: 150%;
+		color: #FFFFFF;
 	}
 }

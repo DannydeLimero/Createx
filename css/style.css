@@ -1163,14 +1163,24 @@ body {
   color: #FFFFFF;
   margin: 12px 0 0 0;
 }
-.footer__row {
+.footer__end {
+  padding: 20px 0;
   display: flex;
   justify-content: space-between;
 }
-.footer__row a {
+.footer__end a {
   font-size: 14px;
   text-transform: uppercase;
   line-height: 150%;
   color: #FFFFFF;
   opacity: 0.6;
+}
+.footer__end-wrap {
+  background: url(../img/main-page/footer/background-end.png) 0 0/cover no-repeat;
+}
+.footer__text {
+  font-family: "Lato-Regular";
+  font-size: 12px;
+  line-height: 150%;
+  color: #FFFFFF;
 }/*# sourceMappingURL=style.css.map */
