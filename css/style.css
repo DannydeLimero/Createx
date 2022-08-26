@@ -1156,6 +1156,35 @@ body {
 .footer__subtitle:not(:last-child) {
   margin: 0 0 8px 0;
 }
+.footer__input {
+  width: 286px;
+  background: rgba(255, 255, 255, 0.12);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  min-height: 34px;
+  vertical-align: middle;
+}
+.footer__input-field {
+  background: transparent;
+  border: none;
+  outline: none;
+  -webkit-appearance: none;
+  width: 234px;
+  vertical-align: middle;
+  height: 36px;
+  color: #FFFFFF;
+  padding: 0 0 0 12px;
+}
+.footer__input-submit {
+  padding: 0;
+  margin: 0;
+  height: 36px;
+  vertical-align: middle;
+  background: transparent url(../img/main-page/footer/LineStroke.svg) no-repeat 50% 50%;
+  width: 36px;
+  font-size: 0;
+  border: none;
+  cursor: pointer;
+}
 .footer__txt {
   font-family: "Lato-Regular";
   font-size: 10px;
