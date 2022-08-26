@@ -1107,6 +1107,8 @@ body {
 }
 .subscribe__btn {
   padding: 0 40px;
+  outline: none;
+  border: none;
 }
 
 .footer {
