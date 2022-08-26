@@ -385,19 +385,19 @@ body {
   color: #FF4242;
 }
 
-.badge-green {
+.badge-marketing {
   background: #03CEA4;
 }
 
-.badge-blue {
+.badge-management {
   background: #5A87FC;
 }
 
-.badge-orange {
+.badge-hr-recruiting {
   background: #F89828;
 }
 
-.badge-red {
+.badge-design {
   background: #F52F6E;
 }
 
@@ -1238,38 +1238,77 @@ body {
   display: flex;
   justify-content: space-between;
   padding: 0 0 60px 0;
+  align-items: center;
 }
 .courses-in-details__list {
   display: flex;
 }
 .courses-in-details__list li {
-  padding: 10px 20px;
-  border-radius: 4px;
-  background-color: transparent;
-  transition: all 0.5s ease 0s;
-  border: 1px solid #FFFFFF;
-  flex: 1 1 auto;
-  cursor: pointer;
+  border: 1px solid transparent;
 }
 .courses-in-details__list li:not(:last-child) {
   margin: 0 12px 0 0;
 }
 .courses-in-details__list li a {
+  display: inline-block;
+  padding: 10px 20px;
   font-size: 16px;
   line-height: 160%;
   color: #9A9CA5;
-}
-.courses-in-details__list li:hover {
   border-radius: 4px;
-  font-size: 16px;
-  line-height: 160%;
+  border: 1px solid #FFFFFF;
+  cursor: pointer;
+  transition: all 0.5s ease 0s;
+}
+.courses-in-details__list li a:hover {
   color: #FF3F3A;
   border: 1px solid #FF3F3A;
 }
-.active1 {
-  border-radius: 4px;
-  font-size: 16px;
-  line-height: 160%;
+.courses-in-details__list li a.active {
   color: #FF3F3A;
   border: 1px solid #FF3F3A;
+}
+.courses-in-details__input {
+  width: 286px;
+  background: #FFFFFF;
+  border: 1px solid #D7DADD;
+  border-radius: 4px;
+  min-height: 44px;
+  vertical-align: middle;
+}
+.courses-in-details__input-field {
+  background: transparent;
+  border: none;
+  outline: none;
+  -webkit-appearance: none;
+  width: 238px;
+  vertical-align: middle;
+  height: 44px;
+  padding: 0 0 0 12px;
+  font-size: 14px;
+  line-height: 150%;
+  color: #9A9CA5;
+}
+.courses-in-details__input-submit {
+  padding: 0;
+  margin: 0;
+  height: 44px;
+  vertical-align: middle;
+  background: transparent url(../img/courses-page/courses-in-details/search.svg) no-repeat 50% 50%;
+  width: 44px;
+  font-size: 0;
+  border: none;
+  cursor: pointer;
+}
+.courses-in-details__content {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 30px;
+}
+.courses-in-details__item {
+  background: #FFFFFF;
+  border: 1px solid #E5E8ED;
+  box-shadow: 0px 80px 80px -20px rgba(154, 156, 165, 0.08), 0px 30px 24px -10px rgba(154, 156, 165, 0.05), 0px 12px 10px -6px rgba(154, 156, 165, 0.04), 0px 4px 4px -4px rgba(30, 33, 44, 0.03);
+  border-radius: 4px;
 }/*# sourceMappingURL=style.css.map */

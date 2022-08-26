@@ -17,8 +17,8 @@ $(document).ready(function() {
         wairForAnimate:false,
         dots:true
     });
-    $('.lili').click(function() {
-        $('.lili').removeClass('active1');
-        $(this).addClass('active1')
+    $('.courses-in-details__btn').click(function() {
+        $('.courses-in-details__btn').removeClass('active');
+        $(this).addClass('active')
     });
 });
