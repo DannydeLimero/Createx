@@ -1164,6 +1164,7 @@ body {
   border: 1px solid rgba(255, 255, 255, 0.2);
   min-height: 34px;
   vertical-align: middle;
+  border-radius: 4px;
 }
 .footer__input-field {
   background: transparent;
