@@ -673,6 +673,7 @@ body {
   display: flex;
   justify-content: space-between;
   position: relative;
+  align-items: center;
 }
 .certificate__column {
   flex: 0 1 32%;
@@ -1168,7 +1169,8 @@ body {
   margin: 0 0 8px 0;
 }
 .footer__input {
-  width: 286px;
+  display: flex;
+  width: 292px;
   background: rgba(255, 255, 255, 0.12);
   border: 1px solid rgba(255, 255, 255, 0.2);
   min-height: 34px;
@@ -1180,7 +1182,7 @@ body {
   border: none;
   outline: none;
   -webkit-appearance: none;
-  width: 234px;
+  width: 244px;
   vertical-align: middle;
   height: 36px;
   color: #FFFFFF;
@@ -1278,14 +1280,14 @@ body {
   border: 1px solid #D7DADD;
   border-radius: 4px;
   min-height: 44px;
-  vertical-align: middle;
+  display: flex;
 }
 .courses-in-details__input-field {
   background: transparent;
   border: none;
   outline: none;
   -webkit-appearance: none;
-  width: 238px;
+  width: 242px;
   vertical-align: middle;
   height: 44px;
   padding: 0 0 0 12px;
