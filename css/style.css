@@ -1327,4 +1327,21 @@ body {
 .courses-in-details__img {
   max-width: 390px;
   max-height: 420px;
+}
+
+.main-course-fisher__text {
+  text-align: center;
+}
+.main-course-fisher__subtitle {
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #FF3F3A;
+}
+.main-course-fisher__title {
+  font-family: "Lato-Black";
+  font-size: 46px;
+  line-height: 130%;
+  color: #1E212C;
 }/*# sourceMappingURL=style.css.map */
