@@ -118,6 +118,7 @@ body {
 }
 .header__content {
   display: flex;
+  align-items: center;
 }
 .header__list {
   display: flex;
