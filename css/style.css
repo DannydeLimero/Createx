@@ -313,7 +313,7 @@ body {
   flex-direction: column;
   justify-content: center;
 }
-.courses__btn button {
+.courses__btn a {
   position: relative;
   font-weight: 700;
   font-size: 16px;
@@ -326,7 +326,7 @@ body {
   padding: 0px 40px;
   cursor: pointer;
 }
-.courses__btn button::before {
+.courses__btn a::before {
   content: "";
   position: absolute;
   top: 0;
