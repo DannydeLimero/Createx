@@ -1331,6 +1331,7 @@ body {
 
 .main-course-fisher__text {
   text-align: center;
+  padding: 0 0 120px 0;
 }
 .main-course-fisher__subtitle {
   font-size: 16px;
