@@ -1115,6 +1115,7 @@ body {
   font-size: 16px;
   line-height: 160%;
   color: #9A9CA5;
+  outline: none;
 }
 .subscribe__btn {
   padding: 0 40px;
