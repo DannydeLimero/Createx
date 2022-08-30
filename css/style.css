@@ -1347,4 +1347,32 @@ body {
   font-size: 46px;
   line-height: 130%;
   color: #1E212C;
+}
+
+.about-fisher__content {
+  display: flex;
+  gap: 135px;
+  padding: 120px 0 184px 0;
+}
+.about-fisher__text {
+  flex: 1 1 60%;
+}
+.about-fisher__title {
+  font-family: "Lato-Black";
+  font-size: 46px;
+  line-height: 130%;
+  color: #1E212C;
+  margin: 0 0 40px 0;
+}
+.about-fisher__subtitle {
+  font-family: "Lato-Regular";
+  font-size: 16px;
+  line-height: 160%;
+  color: #424551;
+  margin: 0 0 48px 0;
+}
+.about-fisher__list-name {
+  font-size: 28px;
+  line-height: 150%;
+  color: #1E212C;
 }/*# sourceMappingURL=style.css.map */

@@ -1546,18 +1546,35 @@ body {
 .about-fisher {
 
 	&__content {
+		display: flex;
+		gap: 135px;
+		padding: 120px 0 184px 0;
 	}
 
 	&__text {
+		flex: 1 1 60%;
 	}
 
 	&__title {
+		font-family: 'Lato-Black';
+		font-size: 46px;
+		line-height: 130%;
+		color: #1E212C;
+		margin: 0 0 40px 0;
 	}
 
 	&__subtitle {
+		font-family: 'Lato-Regular';
+		font-size: 16px;
+		line-height: 160%;
+		color: #424551;
+		margin: 0 0 48px 0;
 	}
 
 	&__list-name {
+		font-size: 28px;
+		line-height: 150%;
+		color: #1E212C;
 	}
 
 	&__list {
