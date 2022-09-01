@@ -1465,4 +1465,14 @@ body {
   line-height: 160%;
   color: #424551;
   margin: 0 0 40px 0;
+}
+.curator-fisher__social {
+  display: flex;
+  align-items: center;
+}
+.curator-fisher__social a:not(:last-child) {
+  margin: 0 24px 0 0;
+}
+.curator-fisher__facebook:hover img {
+  background: url(../img/course-fisher/curator-fisher/social-hover/Facebook.svg) 0 0/cover no-repeat;
 }/*# sourceMappingURL=style.css.map */

@@ -1694,17 +1694,28 @@ body {
 	}
 
 	&__social {
+		display: flex;
+		align-items: center;
+		& a:not(:last-child) {
+			margin: 0 24px 0 0;
+		}
 	}
 
 	&__facebook {
+		&:hover img {
+			background: url(../img/course-fisher/curator-fisher/social-hover/Facebook.svg) 0 0 / cover no-repeat;
+		}
 	}
 
 	&__behance {
+		
 	}
 
 	&__twitter {
+		
 	}
 
 	&__linkedin {
+		
 	}
 }
