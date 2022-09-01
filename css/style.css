@@ -1473,6 +1473,35 @@ body {
 .curator-fisher__social a:not(:last-child) {
   margin: 0 24px 0 0;
 }
-.curator-fisher__facebook:hover img {
+.curator-fisher__facebook {
+  height: 24px;
+  width: 24px;
+  background: url(../img/course-fisher/curator-fisher/social/Facebook.svg) 0 0/cover no-repeat;
+}
+.curator-fisher__facebook:hover {
   background: url(../img/course-fisher/curator-fisher/social-hover/Facebook.svg) 0 0/cover no-repeat;
+}
+.curator-fisher__behance {
+  height: 24px;
+  width: 24px;
+  background: url(../img/course-fisher/curator-fisher/social/behance.svg) 0 0/cover no-repeat;
+}
+.curator-fisher__behance:hover {
+  background: url(../img/course-fisher/curator-fisher/social-hover/behance.svg) 0 0/cover no-repeat;
+}
+.curator-fisher__twitter {
+  height: 24px;
+  width: 24px;
+  background: url(../img/course-fisher/curator-fisher/social/Twitter.svg) 0 0/cover no-repeat;
+}
+.curator-fisher__twitter:hover {
+  background: url(../img/course-fisher/curator-fisher/social-hover/Twitter.svg) 0 0/cover no-repeat;
+}
+.curator-fisher__linkedin {
+  height: 24px;
+  width: 24px;
+  background: url(../img/course-fisher/curator-fisher/social/Linked-In.svg) 0 0/cover no-repeat;
+}
+.curator-fisher__linkedin:hover {
+  background: url(../img/course-fisher/curator-fisher/social-hover/Linked-In.svg) 0 0/cover no-repeat;
 }/*# sourceMappingURL=style.css.map */

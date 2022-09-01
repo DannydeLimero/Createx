@@ -1702,20 +1702,38 @@ body {
 	}
 
 	&__facebook {
-		&:hover img {
+		height: 24px;
+		width: 24px;
+		background: url(../img/course-fisher/curator-fisher/social/Facebook.svg) 0 0 / cover no-repeat;
+		&:hover {
 			background: url(../img/course-fisher/curator-fisher/social-hover/Facebook.svg) 0 0 / cover no-repeat;
 		}
 	}
 
 	&__behance {
-		
+		height: 24px;
+		width: 24px;
+		background: url(../img/course-fisher/curator-fisher/social/behance.svg) 0 0 / cover no-repeat;
+		&:hover {
+			background: url(../img/course-fisher/curator-fisher/social-hover/behance.svg) 0 0 / cover no-repeat;
+		}
 	}
 
 	&__twitter {
-		
+		height: 24px;
+		width: 24px;
+		background: url(../img/course-fisher/curator-fisher/social/Twitter.svg) 0 0 / cover no-repeat;
+		&:hover {
+			background: url(../img/course-fisher/curator-fisher/social-hover/Twitter.svg) 0 0 / cover no-repeat;
+		}
 	}
 
 	&__linkedin {
-		
+		height: 24px;
+		width: 24px;
+		background: url(../img/course-fisher/curator-fisher/social/Linked-In.svg) 0 0 / cover no-repeat;
+		&:hover {
+			background: url(../img/course-fisher/curator-fisher/social-hover/Linked-In.svg) 0 0 / cover no-repeat;
+		}
 	}
 }
