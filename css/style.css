@@ -1432,6 +1432,7 @@ body {
   display: flex;
   justify-content: space-between;
   gap: 135px;
+  padding: 0 0 180px 0;
 }
 .curator-fisher__subtitle {
   margin: 0 0 8px 0;
