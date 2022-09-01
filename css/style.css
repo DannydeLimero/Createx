@@ -1426,4 +1426,43 @@ body {
 }
 .about-fisher__btn {
   margin: 40px 0 0 0;
+}
+
+.curator-fisher__content {
+  display: flex;
+  justify-content: space-between;
+  gap: 135px;
+}
+.curator-fisher__subtitle {
+  margin: 0 0 8px 0;
+}
+.curator-fisher__title {
+  margin: 0 0 16px 0;
+}
+.curator-fisher__position {
+  font-family: "Lato-Regular";
+  font-size: 20px;
+  line-height: 150%;
+  color: #787A80;
+  margin: 0 0 32px 0;
+}
+.curator-fisher__list {
+  list-style-position: inside;
+  margin: 0 0 32px 0;
+}
+.curator-fisher__star {
+  list-style-image: url(../img/course-fisher/curator-fisher/list/Star.svg);
+}
+.curator-fisher__play {
+  list-style-image: url(../img/course-fisher/curator-fisher/list/Play.svg);
+}
+.curator-fisher__pfp {
+  list-style-image: url(../img/course-fisher/curator-fisher/list/Profile.svg);
+}
+.curator-fisher__descr {
+  font-family: "Lato-Regular";
+  font-size: 16px;
+  line-height: 160%;
+  color: #424551;
+  margin: 0 0 40px 0;
 }/*# sourceMappingURL=style.css.map */
