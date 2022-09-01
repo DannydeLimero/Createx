@@ -408,8 +408,6 @@ body {
 
 	&__box {
 		margin: 32px;
-		display: flex;
-		flex-direction: column;
 	}
 
 	&__badge {
@@ -427,7 +425,6 @@ body {
 		line-height: 150%;
 		color: #1E212C;
 		margin: 20px 0 20px 0;
-		flex: 1 1 100%;
 	}
 
 	&__salary {
@@ -1412,6 +1409,9 @@ body {
 /*-----------------------------------------COURSES.HTML----------------------------*/
 
 .courses-in-details {
+	& a {
+		display: flex;
+	}
 	&__text {
 		text-align: center;
 		padding: 0 0 60px 0;
