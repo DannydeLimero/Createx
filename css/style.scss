@@ -1750,27 +1750,45 @@ body {
 
 	&__text {
 		text-align: center;
-	}
-
-	&__subtitle {
-	}
-
-	&__title {
+		padding: 0 0 60px 0;
 	}
 
 	&__row {
+		display: flex;
+		justify-content: space-between;
+		gap: 30px;
+		padding: 0 0 180px 0;
 	}
 
 	&__item {
+		flex: 0 1 25%;
 	}
 
 	&__number {
+		font-family: 'Lato-Black';
+		font-size: 46px;
+		line-height: 130%;
+		color: #D7DADD;
+		margin: 0 0 16px 0;
+	}
+
+	&__txt {
+		font-size: 20px;
+		line-height: 150%;
+		color: #1E212C;
+		margin: 0 0 8px 0;
 	}
 
 	&__paragraph {
+		font-family: 'Lato-Regular';
+		font-size: 16px;
+		line-height: 160%;
+		color: #787A80;
+		
 	}
 
 	&__discount {
+		
 	}
 }
 
