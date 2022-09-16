@@ -1545,7 +1545,12 @@ body {
 }
 
 .discount__head {
+  background: url(../img/course-fisher/steps-fisher/bg-color.png) 0 0/cover no-repeat;
   padding: 48px 60px 48px 65px;
+}
+.discount__head::after {
+  content: "";
+  background: url(../img/course-fisher/steps-fisher/circles.png) 0 0/cover no-repeat;
 }
 .discount__row {
   display: flex;
@@ -1560,4 +1565,6 @@ body {
 }
 .discount__inputs {
   display: flex;
+  justify-content: center;
+  align-items: center;
 }/*# sourceMappingURL=style.css.map */
