@@ -1509,4 +1509,8 @@ body {
 }
 .curator-fisher__linkedin:hover {
   background: url(../img/course-fisher/curator-fisher/social-hover/Linked-In.svg) 0 0/cover no-repeat;
+}
+
+.steps-fisher__text {
+  text-align: center;
 }/*# sourceMappingURL=style.css.map */
