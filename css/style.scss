@@ -1791,7 +1791,12 @@ body {
 .discount {
 
 	&__head {
+		background: url(../img/course-fisher/steps-fisher/bg-color.png) 0 0 / cover no-repeat;
 		padding: 48px 60px 48px 65px;
+		&::after {
+			content: '';
+			background: url(../img/course-fisher/steps-fisher/circles.png) 0 0 / cover no-repeat;
+		}
 	}
 
 	&__row {
@@ -1813,6 +1818,8 @@ body {
 
 	&__inputs {
 		display: flex;
+		justify-content: center;
+		align-items: center;
 	}
 }
 .input-submit {
