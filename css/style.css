@@ -1542,4 +1542,22 @@ body {
   font-size: 16px;
   line-height: 160%;
   color: #787A80;
+}
+
+.discount__head {
+  padding: 48px 60px 48px 65px;
+}
+.discount__row {
+  display: flex;
+  justify-content: space-between;
+}
+.discount__timer {
+  display: flex;
+}
+.discount__item {
+  display: flex;
+  flex-direction: column;
+}
+.discount__inputs {
+  display: flex;
 }/*# sourceMappingURL=style.css.map */

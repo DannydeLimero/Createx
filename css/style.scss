@@ -1786,27 +1786,33 @@ body {
 		color: #787A80;
 		
 	}
-
-	&__discount {
-		
-	}
 }
 
 .discount {
 
 	&__head {
+		padding: 48px 60px 48px 65px;
+	}
+
+	&__row {
+		display: flex;
+		justify-content: space-between;
 	}
 
 	&__title {
 	}
 
 	&__timer {
+		display: flex;
 	}
 
 	&__item {
+		display: flex;
+		flex-direction: column;
 	}
 
 	&__inputs {
+		display: flex;
 	}
 }
 .input-submit {
