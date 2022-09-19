@@ -1655,6 +1655,9 @@ body {
   list-style: url(../img/course-fisher/program-fisher/Plus.svg);
   list-style-position: outside;
 }
+.program-fisher__list-item:not(:last-child) {
+  margin: 0 0 24px 0;
+}
 .program-fisher__paragraph {
   font-size: 20px;
   line-height: 150%;
@@ -1667,6 +1670,7 @@ body {
   color: #FF3F3A;
 }
 .program-fisher__descr {
+  display: none;
   font-family: "Lato-Regular";
   font-size: 16px;
   line-height: 160%;

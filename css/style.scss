@@ -1921,6 +1921,9 @@ body {
 	&__list-item {
 		list-style: url(../img/course-fisher/program-fisher/Plus.svg);
 		list-style-position: outside;
+		&:not(:last-child) {
+			margin: 0 0 24px 0;
+		}
 	}
 
 	&__paragraph {
@@ -1936,6 +1939,7 @@ body {
 	}
 
 	&__descr {
+		display: none;
 		font-family: 'Lato-Regular';
 		font-size: 16px;
 		line-height: 160%;
