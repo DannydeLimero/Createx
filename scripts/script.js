@@ -21,4 +21,8 @@ $(document).ready(function() {
         $('.courses-in-details__btn').removeClass('active');
         $(this).addClass('active')
     });
+    $('.program-fisher__list-item').click(function() {
+        $('.program-fisher__paragraph').toggleClass('active');
+        $(this).addClass('active')
+    });
 });
