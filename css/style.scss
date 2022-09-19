@@ -1878,12 +1878,17 @@ body {
 
 	&__content {
 		display: flex;
-		gap: 135px;
+		justify-content: space-between;
 		padding: 0 0 180px 0;
 	}
+
+	&__text {
+		margin: 0 135px 0 0;
+	}
+
 	&__list {
 		padding: 32px 0 0 0;
-		
+		flex: 0 1 55%;
 	}
 
 	&__list-item {
