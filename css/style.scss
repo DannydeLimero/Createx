@@ -1873,3 +1873,27 @@ body {
 		padding: 0 32px;
 	}
 }
+
+.purpose-fisher {
+
+	&__content {
+		display: flex;
+		gap: 135px;
+		padding: 0 0 180px 0;
+	}
+	&__list {
+		padding: 32px 0 0 0;
+		
+	}
+
+	&__list-item {
+		font-size: 20px;
+		line-height: 150%;
+		color: #424551;
+		list-style: url(../img/course-fisher/purpose-fisher/check.svg);
+		list-style-position: inside;
+		&:not(:last-child) {
+			margin: 0 0 20px 0;
+		}
+	}
+}
