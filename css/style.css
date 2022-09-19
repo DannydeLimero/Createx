@@ -1511,6 +1511,9 @@ body {
   background: url(../img/course-fisher/curator-fisher/social-hover/Linked-In.svg) 0 0/cover no-repeat;
 }
 
+.steps-fisher__content {
+  padding: 0 0 180px 0;
+}
 .steps-fisher__text {
   text-align: center;
   padding: 0 0 60px 0;
