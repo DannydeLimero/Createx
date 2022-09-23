@@ -22,6 +22,6 @@ $(document).ready(function() {
         $(this).addClass('active')
     });
     $('.program-fisher__paragraph').click(function() {
-        $(this).parent().next('.program-fisher__descr').css('display','block')
+        $(this).parent().next('.program-fisher__descr').toggleClass('act')
     })
 });
