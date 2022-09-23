@@ -1662,6 +1662,7 @@ body {
   font-size: 20px;
   line-height: 150%;
   color: #1E212C;
+  cursor: pointer;
 }
 .program-fisher__paragraph span {
   font-family: "Lato-Regular";
@@ -1676,6 +1677,6 @@ body {
   line-height: 160%;
   color: #424551;
 }
-.program-fisher__list-item .act {
+.program-fisher__descr .act {
   display: block;
 }/*# sourceMappingURL=style.css.map */

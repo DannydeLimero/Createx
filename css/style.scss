@@ -1930,6 +1930,7 @@ body {
 		font-size: 20px;
 		line-height: 150%;
 		color: #1E212C;
+		cursor: pointer;
 		& span {
 			font-family: 'Lato-Regular';
 			font-size: 20px;
@@ -1950,6 +1951,6 @@ body {
 	}
 }
 
-.program-fisher__list-item .act {
+.program-fisher__descr .act {
 	display: block;
 }
