@@ -1951,13 +1951,16 @@ body {
 	}
 }
 
-.program-fisher__descr .act {
+.program-fisher__descr.act {
 	display: block;
 }
 
 .register-fisher {
 
 	&__content {
+		display: flex;
+		padding: 80px 0 100px 0;
+		background-color: #F4F5F7;
 	}
 
 	&__column {

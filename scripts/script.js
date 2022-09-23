@@ -22,7 +22,6 @@ $(document).ready(function() {
         $(this).addClass('active')
     });
     $('.program-fisher__paragraph').click(function() {
-        $('.program-fisher__paragraph').removeClass('act');
-        $(this).addClass('act')
+        $('.program-fisher__descr').toggleClass('act');
     });
 });
