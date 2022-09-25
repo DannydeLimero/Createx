@@ -1659,6 +1659,13 @@ body {
 .program-fisher__list-item:not(:last-child) {
   margin: 0 0 24px 0;
 }
+.program-fisher__list-item.active {
+  border: none;
+  list-style-image: url(../img/course-fisher/program-fisher/Minus.svg);
+}
+.program-fisher__list-item.active .program-fisher__descr {
+  display: block;
+}
 .program-fisher__paragraph {
   font-size: 20px;
   line-height: 150%;
@@ -1678,11 +1685,6 @@ body {
   line-height: 160%;
   color: #424551;
 }
-.program-fisher__descr.active {
-  display: block;
-  border: none;
-}
-
 .grey-wrap {
   background-color: #F4F5F7;
   padding: 80px 0 0 0;

@@ -1925,6 +1925,13 @@ body {
 		&:not(:last-child) {
 			margin: 0 0 24px 0;
 		}
+		&.active {
+			border: none;
+			list-style-image: url(../img/course-fisher/program-fisher/Minus.svg);
+			& .program-fisher__descr {
+				display: block;
+			}
+		}
 	}
 
 	&__paragraph {
@@ -1950,11 +1957,6 @@ body {
 
 	&__img {
 	}
-}
-
-.program-fisher__descr.active {
-	display: block;
-	border: none;
 }
 
 .grey-wrap {
@@ -2004,5 +2006,16 @@ body {
 
 	&__submit {
 		margin: 16px 0 0 0;
+	}
+}
+
+.other-courses {
+
+	&__content {
+
+	}
+
+	&__slider {
+
 	}
 }
