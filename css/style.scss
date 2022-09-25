@@ -1965,7 +1965,6 @@ body {
 }
 
 .register-fisher {
-
 	&__content {
 		display: flex;
 		justify-content: space-between;
@@ -2010,12 +2009,64 @@ body {
 }
 
 .other-courses {
-
 	&__content {
+		padding: 120px 0 180px 0;
+	}
 
+	&__text {
+		margin: 0 0 60px 0;
+	}
+
+	&__row {
+		display: flex;
+		position: relative;
 	}
 
 	&__slider {
-
+		overflow: hidden;
 	}
+
+	& .slick-track {
+		display: flex;
+		justify-content: space-between;
+	}
+	& .slick-active {
+		opacity: 1;
+	}
+	& .slick-arrow {
+		position: absolute;
+		font-size: 0;
+	}
+	& .slick-prev {
+		top: -100px;
+		right: 64px;
+		height: 48px;
+		width: 48px;
+		background: url(../img/main-page/team/slider/prev-hover.png);
+		background-repeat: no-repeat;
+		background-position: center;
+		padding: 24px;
+		&.slick-disabled {
+			background: url(../img/main-page/team/slider/prev-btn.png);
+			background-repeat: no-repeat;
+			background-position: center;
+		}
+	}
+	& .slick-next {
+		top: -100px;
+		right: 0;
+		height: 48px;
+		width: 48px;
+		background: url(../img/main-page/team/slider/next-hover.png);
+		background-repeat: no-repeat;
+		background-position: center;
+		padding: 24px;
+		&.slick-disabled {
+			background: url(../img/main-page/team/slider/next-btn.png);
+			background-repeat: no-repeat;
+			background-position: center;
+		}
+	}
+	
 }
+

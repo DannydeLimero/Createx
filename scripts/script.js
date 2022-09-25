@@ -24,4 +24,11 @@ $(document).ready(function() {
     $('.program-fisher__list-item').click(function() {
         $(this).toggleClass('active')
     });
+    $('.other-courses__slider').slick({
+        slidesToShow: 2,
+        slidesToScroll: 2,
+        infinite: false,
+        speed:750,
+        wairForAnimate:false
+    });
 });
