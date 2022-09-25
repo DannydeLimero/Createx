@@ -1906,6 +1906,7 @@ body {
 	&__content {
 		display: flex;
 		justify-content: space-between;
+		padding: 0 0 120px 0;
 	}
 
 	&__text {
@@ -1951,31 +1952,57 @@ body {
 	}
 }
 
-.program-fisher__descr.act {
+.program-fisher__descr.active {
 	display: block;
+	border: none;
+}
+
+.grey-wrap {
+	background-color: #F4F5F7;
+	padding: 80px 0 0 0;
 }
 
 .register-fisher {
 
 	&__content {
 		display: flex;
+		justify-content: space-between;
 		padding: 80px 0 100px 0;
-		background-color: #F4F5F7;
 		gap: 185px;
 	}
 
-	&__column {
-	}
-
-	&__subtitle {
-	}
-
 	&__title {
+		margin: 0 0 40px 0;
 	}
 
 	&__inputs {
+		display: flex;
+		flex-direction: column;
+		& p {
+			font-family: 'Lato-Regular';
+			font-size: 14px;
+			line-height: 150%;
+			color: #424551;
+			margin: 0 0 8px 0;
+		}
+		& input {
+			outline: none;
+			background-color: #FFFFFF;
+			border: 1px solid #D7DADD;
+			border-radius: 4px;
+			height: 28px;
+			padding: 11px 0 11px 16px;
+			width: 96%;
+			font-size: 14px;
+			line-height: 150%;
+			color: #9A9CA5;
+		}
+		& form {
+			margin: 0 0 24px 0;
+		}
 	}
 
 	&__submit {
+		margin: 16px 0 0 0;
 	}
 }
