@@ -2021,6 +2021,7 @@ body {
 	&__row {
 		display: flex;
 		position: relative;
+		gap: 30px;
 	}
 
 	&__slider {
@@ -2046,6 +2047,7 @@ body {
 	& .slick-track {
 		display: flex;
 		justify-content: space-between;
+		gap: 30px;
 	}
 	& .slick-active {
 		opacity: 1;
