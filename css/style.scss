@@ -1766,11 +1766,18 @@ body {
 	}
 
 	&__number {
+		position: relative;
 		font-family: 'Lato-Black';
 		font-size: 46px;
 		line-height: 130%;
 		color: #D7DADD;
 		margin: 0 0 16px 0;
+		&::after {
+			position: absolute;
+			content: url(../img/course-fisher/steps-fisher/line.png);
+			top: -15px;
+			left: 65px;
+		}
 	}
 
 	&__txt {
@@ -2026,6 +2033,22 @@ body {
 		overflow: hidden;
 	}
 
+	&__all {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		gap: 40px;
+		padding: 80px 0 0 0;
+		& span {
+			font-size: 28px;
+			line-height: 150%;
+			color: #1E212C;
+		}
+	}
+
+	&__view-all {
+		padding: 0 40px;
+	}
 	& .slick-track {
 		display: flex;
 		justify-content: space-between;
@@ -2067,6 +2090,4 @@ body {
 			background-position: center;
 		}
 	}
-	
 }
-
