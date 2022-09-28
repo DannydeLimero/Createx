@@ -2183,23 +2183,25 @@ body {
 		display: flex;
 		justify-content: center;
 		align-items: center;
+		gap: 20px;
 	}
 
 	&__item {
+		display: flex;
 		border: none;
-		&:not(:last-child) {
-			margin: 0 20px 0 0;
-		}
 		& a {
 			font-size: 16px;
 			line-height: 160%;
 			color: #424551;
+			align-self: center;
 		}
 		&.active a {
 			font-size: 16px;
 			line-height: 160%;
 			color: #FF3F3A;
 		}
+		& img {
+			vertical-align: middle;
+		}
 	}
 }
-

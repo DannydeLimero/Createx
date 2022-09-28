@@ -31,4 +31,8 @@ $(document).ready(function() {
         speed:750,
         wairForAnimate:false
     });
+    $('.events-page__item').click(function() {
+        $('.events-page__item').removeClass('active');
+        $(this).addClass('active')
+    });
 });
