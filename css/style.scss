@@ -486,6 +486,12 @@ body {
 		border: 1px solid #FFFFFF;
 		flex: 1 1 auto;
 		cursor: pointer;
+		&.active {
+			font-size: 16px;
+			line-height: 160%;
+			color: #FF3F3A;
+			border: 1px solid #FF3F3A;
+		}
 	}
 
 	&__hover {
@@ -523,14 +529,6 @@ body {
 		color: #424551;
 	}
 }
-
-.active {
-	font-size: 16px;
-	line-height: 160%;
-	color: #FF3F3A;
-	border: 1px solid #FF3F3A;
-}
-
 
 .btns {
 	&__tutors {
@@ -2188,7 +2186,6 @@ body {
 
 	&__item {
 		display: flex;
-		border: none;
 		& a {
 			font-size: 16px;
 			line-height: 160%;

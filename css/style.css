@@ -431,6 +431,12 @@ body {
   flex: 1 1 auto;
   cursor: pointer;
 }
+.benefits__btn.active {
+  font-size: 16px;
+  line-height: 160%;
+  color: #FF3F3A;
+  border: 1px solid #FF3F3A;
+}
 .benefits__hover:hover {
   font-size: 16px;
   line-height: 160%;
@@ -458,13 +464,6 @@ body {
   font-size: 16px;
   line-height: 160%;
   color: #424551;
-}
-
-.active {
-  font-size: 16px;
-  line-height: 160%;
-  color: #FF3F3A;
-  border: 1px solid #FF3F3A;
 }
 
 .btns__tutors:before {
@@ -1896,7 +1895,6 @@ body {
 }
 .events-page__item {
   display: flex;
-  border: none;
 }
 .events-page__item a {
   font-size: 16px;
