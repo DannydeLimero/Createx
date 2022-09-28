@@ -591,13 +591,14 @@ body {
   border: 1px solid #D7DADD;
 }
 .field__box {
-  display: grid;
-  grid-template-areas: "day month" "day time";
-  -moz-column-gap: 20px;
-       column-gap: 20px;
+  display: flex;
+  gap: 20px;
+}
+.field__minibox {
+  display: flex;
+  flex-direction: column;
 }
 .field__day {
-  grid-area: day;
   font-family: "Lato-Black";
   font-size: 48px;
   line-height: 130%;
@@ -606,13 +607,11 @@ body {
   align-items: center;
 }
 .field__month {
-  grid-area: month;
   font-size: 20px;
   line-height: 150%;
   color: #1E212C;
 }
 .field__time {
-  grid-area: time;
   font-family: "Lato-Regular";
   font-size: 16px;
   line-height: 160%;
@@ -1909,4 +1908,32 @@ body {
 }
 .events-page__item img {
   vertical-align: middle;
+}
+
+.events-page__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 30px;
+}
+.events-page__grid .events__field {
+  flex-direction: column;
+  padding: 24px;
+}
+.events-page__grid .field__box {
+  flex-direction: column;
+  flex: 1 1 auto;
+}
+.events-page__grid .field__month {
+  color: #FF4242;
+}
+.events-page__grid .field__text {
+  padding: 0;
+}
+.events-page__grid .field__title {
+  font-size: 18px;
+}
+.events-page__grid .field__btn {
+  display: block;
+  padding: 0 134px;
 }/*# sourceMappingURL=style.css.map */
