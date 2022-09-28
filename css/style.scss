@@ -2176,12 +2176,30 @@ body {
 	}
 
 	&__dots {
+		padding: 60px 0 0 0;
 	}
 
 	&__list {
+		display: flex;
+		justify-content: center;
+		align-items: center;
 	}
 
 	&__item {
+		border: none;
+		&:not(:last-child) {
+			margin: 0 20px 0 0;
+		}
+		& a {
+			font-size: 16px;
+			line-height: 160%;
+			color: #424551;
+		}
+		&.active a {
+			font-size: 16px;
+			line-height: 160%;
+			color: #FF3F3A;
+		}
 	}
 }
 

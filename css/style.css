@@ -1884,4 +1884,28 @@ body {
   display: flex;
   flex-direction: column;
   gap: 24px;
+}
+.events-page__dots {
+  padding: 60px 0 0 0;
+}
+.events-page__list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.events-page__item {
+  border: none;
+}
+.events-page__item:not(:last-child) {
+  margin: 0 20px 0 0;
+}
+.events-page__item a {
+  font-size: 16px;
+  line-height: 160%;
+  color: #424551;
+}
+.events-page__item.active a {
+  font-size: 16px;
+  line-height: 160%;
+  color: #FF3F3A;
 }/*# sourceMappingURL=style.css.map */
