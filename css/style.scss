@@ -646,6 +646,7 @@ body {
 
 	&__text {
 		text-align: center;
+		padding: 0 0 60px 0;
 	}
 
 	&__column {
@@ -688,8 +689,7 @@ body {
 }
 
 .field {
-	display: flex;
-	align-items: flex-start;
+	border: 1px solid #D7DADD;
 	&__box {
 		display: grid;
 		grid-template-areas: 'day month''day time';
@@ -1365,7 +1365,6 @@ body {
 		padding: 0;
 		margin: 0;
 		height: 36px;
-		vertical-align: middle;
 		background: transparent url(../img/main-page/footer/LineStroke.svg) no-repeat 50% 50%;
 		width: 36px;
 		font-size: 0;
@@ -2094,23 +2093,84 @@ body {
 	}
 
 	&__text {
-	}
-
-	&__subtitle {
-	}
-
-	&__title {
+		text-align: center;
+		margin: -60px 0 60px 0;
 	}
 
 	&__row {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding: 0 0 60px 0;
+		& label {
+			font-size: 16px;
+			line-height: 160%;
+			color: #424551;
+			margin: 0 12px 0 0;
+		}
+		& select {
+			background: #FFFFFF;
+			border: 1px solid #D7DADD;
+			border-radius: 4px;
+			height: 44px;
+			outline: none;
+			padding: 0 0 0 16px;
+		}
 	}
 
 	&__box {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		& input {
+			box-sizing: border-box;
+			height: 44px;
+			outline: none;
+		}
+		& a:not(:last-child) {
+			margin: 0 12px 0 0;
+		}
+		& span {
+			font-family: 'Lato-Regular';
+			font-size: 14px;
+			line-height: 150%;
+			color: #787A80;
+			padding: 0 0 0 12px;
+		}
+	}
+	
+	&__number {
+		padding: 0 0 0 16px;
+		border-radius: 4px;
+		border: 1px solid #D7DADD;
+	}
+
+	&__form {
+		display: flex;
+		align-items: center;
+		border-radius: 4px;
+		border: 1px solid #D7DADD;
 	}
 
 	&__search {
+		border: none;
+		padding: 0 0 0 16px;
+		border-radius: 4px 0 0 4px;
 	}
 
 	&__submit {
+		height: 42px;
+		width: 42px;
+		border: none;
+		font-size: 0;
+		background: transparent url(../img/events-page/search.svg) no-repeat 50% 50%;
+		padding: 0;
+		cursor: pointer;
+	}
+
+	&__column {
+		display: flex;
+		flex-direction: column;
+		gap: 24px;
 	}
 }
