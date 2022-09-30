@@ -1172,6 +1172,9 @@ body {
 .footer__subtitle:not(:last-child) {
   margin: 0 0 8px 0;
 }
+.footer__subtitle:hover {
+  text-decoration: underline;
+}
 .footer__input {
   display: flex;
   width: 292px;
