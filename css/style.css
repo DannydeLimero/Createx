@@ -143,6 +143,31 @@ body {
 .btns__consultation {
   padding: 0 40px;
 }
+.btns__consultation:hover {
+  position: relative;
+  font-size: 16px;
+  line-height: 52px;
+  letter-spacing: 0.5px;
+  background: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.btns__consultation:hover::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 4px;
+  border: 1px solid transparent;
+  background: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
+  -webkit-mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: destination-out;
+  mask-composite: exclude;
+}
 .btns a {
   font-size: 16px;
   line-height: 160%;
@@ -263,8 +288,43 @@ body {
   -webkit-mask-composite: destination-out;
   mask-composite: exclude;
 }
+.btns__about-us:hover {
+  background: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
+  border-radius: 4px;
+  font-size: 16px;
+  line-height: 325%;
+  letter-spacing: 0.5px;
+  color: #FFFFFF;
+  -webkit-text-fill-color: #FFFFFF;
+  cursor: pointer;
+}
 .btns__explore {
   padding: 18px 40px;
+}
+.btns__explore:hover {
+  position: relative;
+  font-size: 16px;
+  line-height: 52px;
+  letter-spacing: 0.5px;
+  background: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.btns__explore:hover::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 4px;
+  border: 1px solid transparent;
+  background: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
+  -webkit-mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: destination-out;
+  mask-composite: exclude;
 }
 
 .about {
@@ -301,6 +361,31 @@ body {
 .about__more-about {
   padding: 0 32px;
   cursor: pointer;
+}
+.about__more-about:hover {
+  position: relative;
+  font-size: 16px;
+  line-height: 52px;
+  letter-spacing: 0.5px;
+  background: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.about__more-about:hover::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 4px;
+  border: 1px solid transparent;
+  background: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
+  -webkit-mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: destination-out;
+  mask-composite: exclude;
 }
 
 .courses__row {
@@ -339,6 +424,16 @@ body {
   -webkit-mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
   -webkit-mask-composite: destination-out;
   mask-composite: exclude;
+}
+.courses__btn a:hover {
+  background: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
+  border-radius: 4px;
+  font-size: 16px;
+  line-height: 325%;
+  letter-spacing: 0.5px;
+  color: #FFFFFF;
+  -webkit-text-fill-color: #FFFFFF;
+  cursor: pointer;
 }
 .courses__content {
   display: flex;
@@ -585,6 +680,31 @@ body {
   letter-spacing: 0.5px;
   padding: 0 40px;
   cursor: pointer;
+}
+.events__btn:hover {
+  position: relative;
+  font-size: 14px;
+  line-height: 44px;
+  letter-spacing: 0.5px;
+  background: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.events__btn:hover::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 4px;
+  border: 1px solid transparent;
+  background: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
+  -webkit-mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: destination-out;
+  mask-composite: exclude;
 }
 
 .field {
