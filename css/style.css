@@ -81,6 +81,31 @@ body {
   color: #FFFFFF;
   cursor: pointer;
 }
+.btn:hover {
+  position: relative;
+  font-size: 16px;
+  line-height: 52px;
+  letter-spacing: 0.5px;
+  background: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.btn:hover::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 4px;
+  border: 1px solid transparent;
+  background: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
+  -webkit-mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: destination-out;
+  mask-composite: exclude;
+}
 
 .subtitle {
   margin: 0 0 8px 0;
@@ -96,6 +121,17 @@ body {
   font-size: 46px;
   line-height: 130%;
   color: #1E212C;
+}
+
+.btns__about-us:hover {
+  background: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
+  border-radius: 4px;
+  font-size: 16px;
+  line-height: 325%;
+  letter-spacing: 0.5px;
+  color: #FFFFFF;
+  -webkit-text-fill-color: #FFFFFF;
+  cursor: pointer;
 }
 
 .bg-wrap {
@@ -142,31 +178,6 @@ body {
 
 .btns__consultation {
   padding: 0 40px;
-}
-.btns__consultation:hover {
-  position: relative;
-  font-size: 16px;
-  line-height: 52px;
-  letter-spacing: 0.5px;
-  background: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  border-radius: 4px;
-  cursor: pointer;
-}
-.btns__consultation:hover::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  border-radius: 4px;
-  border: 1px solid transparent;
-  background: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
-  -webkit-mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
-  -webkit-mask-composite: destination-out;
-  mask-composite: exclude;
 }
 .btns a {
   font-size: 16px;
@@ -287,16 +298,6 @@ body {
   -webkit-mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
   -webkit-mask-composite: destination-out;
   mask-composite: exclude;
-}
-.btns__about-us:hover {
-  background: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
-  border-radius: 4px;
-  font-size: 16px;
-  line-height: 325%;
-  letter-spacing: 0.5px;
-  color: #FFFFFF;
-  -webkit-text-fill-color: #FFFFFF;
-  cursor: pointer;
 }
 .btns__explore {
   padding: 18px 40px;
@@ -1242,7 +1243,7 @@ body {
 .subscribe__btn {
   padding: 0 40px;
   outline: none;
-  border: none;
+  border: 1px solid #F75E05;
 }
 
 .footer {
@@ -1343,6 +1344,9 @@ body {
   line-height: 150%;
   color: #FFFFFF;
   opacity: 0.6;
+}
+.footer__end a:hover {
+  text-decoration: underline;
 }
 .footer__end-wrap {
   background: url(../img/main-page/footer/background-end.png) 0 0/cover no-repeat;

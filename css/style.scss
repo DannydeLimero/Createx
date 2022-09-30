@@ -1415,7 +1415,7 @@ body {
 	&__btn {
 		padding: 0 40px;
 		outline: none;
-		border: none;
+		border: 1px solid #F75E05;
 	}
 }
 
@@ -1528,6 +1528,9 @@ body {
 			line-height: 150%;
 			color: #FFFFFF;
 			opacity: 0.6;
+			&:hover {
+				text-decoration: underline;
+			}
 		}
 	}
 
