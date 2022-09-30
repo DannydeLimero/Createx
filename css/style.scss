@@ -43,12 +43,10 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
 button {
 	border: none;
 	outline: none;
 }
-
 a {
 	text-decoration: none;
 }
@@ -59,7 +57,6 @@ body {
     height: 100%;
     font-family: 'Lato-Bold';
 }
-
 .container {
     max-width: 1230px;
     margin: 0 auto;
@@ -67,7 +64,6 @@ body {
     padding-right: 15px;
     height: 100%;
 }
-
 .btn {
 	background: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
 	border-radius: 4px;
@@ -104,7 +100,6 @@ body {
 		}
 	}
 }
-
 .subtitle {
 	margin: 0 0 8px 0;
 	font-size: 16px;
@@ -114,14 +109,12 @@ body {
 	color: #1E212C;
 
 }
-
 .title {
 	font-family: 'Lato-Black';
 	font-size: 46px;
 	line-height: 130%;
 	color: #1E212C;
 }
-
 .btns__about-us, a.courses__btn {
 	&:hover {
 		background: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
@@ -190,11 +183,13 @@ body {
 	&__consultation {
 		padding: 0 40px;
 	}
+
 	& a {
 		font-size: 16px;
 		line-height: 160%;
 		color: #424551;
 	}
+
 	&__log-in {
 		position: relative;
 		padding: 0 0 0 28px;
@@ -216,7 +211,6 @@ body {
 
 
 .main {
-
 	&__content {
 		padding: 0 0 190px 0;
 	}
@@ -371,6 +365,7 @@ body {
 	background-size: cover;
 	background-repeat: no-repeat;
 	margin: 180px 0 0 0;
+
 	&__content {
 		display: flex;
 		justify-content: space-between;
@@ -732,6 +727,7 @@ body {
 		bottom: 0;
 		left: 0;
 	}
+
 	&__content {
 		padding: 80px 0 0 0;
 	}
@@ -900,7 +896,6 @@ body {
 }
 
 .certificate {
-
 	&__content {
 		padding: 120px 0 120px 0;
 		display: flex;
@@ -946,12 +941,10 @@ body {
 }
 
 .team {
-
 	&__content {
 		padding: 166px 0 0 0;
 		min-width: 0;
 	}
-
 	&__row {
 	}
 }
@@ -2238,7 +2231,6 @@ body {
 }
 
 .events-page {
-
 	&__content {
 		padding: 0 0 180px 0;
 	}
