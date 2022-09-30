@@ -1047,9 +1047,12 @@ body {
 		right: 64px;
 		height: 48px;
 		width: 48px;
-		background: url(../img/main-page/team/slider/prev-hover.png);
+		background: url(../img/main-page/team/slider/prev-btn.png);
 		background-repeat: no-repeat;
 		background-position: center;
+		&:hover {
+			background: url(../img/main-page/team/slider/prev-hover.png);
+		}
 		padding: 24px;
 		&.slick-disabled {
 			background: url(../img/main-page/team/slider/prev-btn.png);
@@ -1062,10 +1065,13 @@ body {
 		right: 0;
 		height: 48px;
 		width: 48px;
-		background: url(../img/main-page/team/slider/next-hover.png);
+		background: url(../img/main-page/team/slider/next-btn.png);
 		background-repeat: no-repeat;
 		background-position: center;
 		padding: 24px;
+		&:hover {
+			background: url(../img/main-page/team/slider/next-hover.png);
+		}
 		&.slick-disabled {
 			background: url(../img/main-page/team/slider/next-btn.png);
 			background-repeat: no-repeat;
@@ -1194,10 +1200,13 @@ body {
 		left: 0;
 		height: 48px;
 		width: 48px;
-		background: url(../img/main-page/team/slider/prev-hover.png);
+		background: url(../img/main-page/team/slider/prev-btn.png);
 		background-repeat: no-repeat;
 		background-position: center;
 		padding: 24px;
+		&:hover {
+			background: url(../img/main-page/team/slider/prev-hover.png);
+		}
 		&.slick-disabled {
 			background: url(../img/main-page/team/slider/prev-btn.png);
 			background-repeat: no-repeat;
@@ -1209,10 +1218,13 @@ body {
 		right: 0;
 		height: 48px;
 		width: 48px;
-		background: url(../img/main-page/team/slider/next-hover.png);
+		background: url(../img/main-page/team/slider/next-btn.png);
 		background-repeat: no-repeat;
 		background-position: center;
 		padding: 24px;
+		&:hover {
+			background: url(../img/main-page/team/slider/next-hover.png);
+		}
 		&.slick-disabled {
 			background: url(../img/main-page/team/slider/next-btn.png);
 			background-repeat: no-repeat;
@@ -1805,6 +1817,9 @@ body {
 	&__list {
 		list-style-position: inside;
 		margin: 0 0 32px 0;
+		& li:not(:last-child) {
+			margin: 0 0 4px 0;
+		}
 	}
 
 	&__star {
@@ -2148,9 +2163,7 @@ body {
 	}
 
 	&__row {
-		display: flex;
 		position: relative;
-		gap: 30px;
 	}
 
 	&__slider {
@@ -2184,15 +2197,19 @@ body {
 	& .slick-arrow {
 		position: absolute;
 		font-size: 0;
+		cursor: pointer;
 	}
 	& .slick-prev {
 		top: -100px;
 		right: 64px;
 		height: 48px;
 		width: 48px;
-		background: url(../img/main-page/team/slider/prev-hover.png);
+		background: url(../img/main-page/team/slider/prev-btn.png);
 		background-repeat: no-repeat;
 		background-position: center;
+		&:hover {
+			background: url(../img/main-page/team/slider/prev-hover.png);
+		}
 		padding: 24px;
 		&.slick-disabled {
 			background: url(../img/main-page/team/slider/prev-btn.png);
@@ -2205,10 +2222,13 @@ body {
 		right: 0;
 		height: 48px;
 		width: 48px;
-		background: url(../img/main-page/team/slider/next-hover.png);
+		background: url(../img/main-page/team/slider/next-btn.png);
 		background-repeat: no-repeat;
 		background-position: center;
 		padding: 24px;
+		&:hover {
+			background: url(../img/main-page/team/slider/next-hover.png);
+		}
 		&.slick-disabled {
 			background: url(../img/main-page/team/slider/next-btn.png);
 			background-repeat: no-repeat;

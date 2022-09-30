@@ -909,10 +909,13 @@ body {
   right: 64px;
   height: 48px;
   width: 48px;
-  background: url(../img/main-page/team/slider/prev-hover.png);
+  background: url(../img/main-page/team/slider/prev-btn.png);
   background-repeat: no-repeat;
   background-position: center;
   padding: 24px;
+}
+.slider .slick-prev:hover {
+  background: url(../img/main-page/team/slider/prev-hover.png);
 }
 .slider .slick-prev.slick-disabled {
   background: url(../img/main-page/team/slider/prev-btn.png);
@@ -924,10 +927,13 @@ body {
   right: 0;
   height: 48px;
   width: 48px;
-  background: url(../img/main-page/team/slider/next-hover.png);
+  background: url(../img/main-page/team/slider/next-btn.png);
   background-repeat: no-repeat;
   background-position: center;
   padding: 24px;
+}
+.slider .slick-next:hover {
+  background: url(../img/main-page/team/slider/next-hover.png);
 }
 .slider .slick-next.slick-disabled {
   background: url(../img/main-page/team/slider/next-btn.png);
@@ -1046,10 +1052,13 @@ body {
   left: 0;
   height: 48px;
   width: 48px;
-  background: url(../img/main-page/team/slider/prev-hover.png);
+  background: url(../img/main-page/team/slider/prev-btn.png);
   background-repeat: no-repeat;
   background-position: center;
   padding: 24px;
+}
+.slider-wide .slick-prev:hover {
+  background: url(../img/main-page/team/slider/prev-hover.png);
 }
 .slider-wide .slick-prev.slick-disabled {
   background: url(../img/main-page/team/slider/prev-btn.png);
@@ -1061,10 +1070,13 @@ body {
   right: 0;
   height: 48px;
   width: 48px;
-  background: url(../img/main-page/team/slider/next-hover.png);
+  background: url(../img/main-page/team/slider/next-btn.png);
   background-repeat: no-repeat;
   background-position: center;
   padding: 24px;
+}
+.slider-wide .slick-next:hover {
+  background: url(../img/main-page/team/slider/next-hover.png);
 }
 .slider-wide .slick-next.slick-disabled {
   background: url(../img/main-page/team/slider/next-btn.png);
@@ -1573,6 +1585,9 @@ body {
   list-style-position: inside;
   margin: 0 0 32px 0;
 }
+.curator-fisher__list li:not(:last-child) {
+  margin: 0 0 4px 0;
+}
 .curator-fisher__star {
   list-style-image: url(../img/course-fisher/curator-fisher/list/Star.svg);
 }
@@ -1861,9 +1876,7 @@ body {
   margin: 0 0 60px 0;
 }
 .other-courses__row {
-  display: flex;
   position: relative;
-  gap: 30px;
 }
 .other-courses__slider {
   overflow: hidden;
@@ -1894,16 +1907,20 @@ body {
 .other-courses .slick-arrow {
   position: absolute;
   font-size: 0;
+  cursor: pointer;
 }
 .other-courses .slick-prev {
   top: -100px;
   right: 64px;
   height: 48px;
   width: 48px;
-  background: url(../img/main-page/team/slider/prev-hover.png);
+  background: url(../img/main-page/team/slider/prev-btn.png);
   background-repeat: no-repeat;
   background-position: center;
   padding: 24px;
+}
+.other-courses .slick-prev:hover {
+  background: url(../img/main-page/team/slider/prev-hover.png);
 }
 .other-courses .slick-prev.slick-disabled {
   background: url(../img/main-page/team/slider/prev-btn.png);
@@ -1915,10 +1932,13 @@ body {
   right: 0;
   height: 48px;
   width: 48px;
-  background: url(../img/main-page/team/slider/next-hover.png);
+  background: url(../img/main-page/team/slider/next-btn.png);
   background-repeat: no-repeat;
   background-position: center;
   padding: 24px;
+}
+.other-courses .slick-next:hover {
+  background: url(../img/main-page/team/slider/next-hover.png);
 }
 .other-courses .slick-next.slick-disabled {
   background: url(../img/main-page/team/slider/next-btn.png);
