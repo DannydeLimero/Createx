@@ -791,6 +791,7 @@ body {
 .slider .slick-arrow {
   position: absolute;
   font-size: 0;
+  cursor: pointer;
 }
 .slider .slick-prev {
   top: 0;
@@ -927,6 +928,7 @@ body {
   position: absolute;
   font-size: 0;
   z-index: 10;
+  cursor: pointer;
 }
 .slider-wide .slick-prev {
   top: 40%;
@@ -961,6 +963,7 @@ body {
 .slider-wide .slick-dots {
   display: flex;
   justify-content: center;
+  cursor: pointer;
 }
 .slider-wide .slick-dots li:not(:last-child) {
   margin: 0 12px 0 0;
