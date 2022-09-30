@@ -1232,6 +1232,9 @@ body {
 			&:not(:last-child) {
 				margin: 0 12px 0 0;
 			}
+			& button {
+				cursor: pointer;
+			}
 		}
 		& button {
 			font-size: 0;
@@ -2182,7 +2185,9 @@ body {
 	& .slick-track {
 		display: flex;
 		justify-content: space-between;
-		gap: 30px;
+		& a {
+			display: flex;
+		}
 	}
 	& .slick-active {
 		opacity: 1;
